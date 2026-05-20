@@ -12,7 +12,7 @@ Static GitHub Pages leaderboard for the Trust The Process Challenge.
 
 ## Update Button
 
-The page's **Update Leaderboard** button opens the repository workflow page for `update-leaderboard.yml`. GitHub Pages cannot safely store a token that directly runs Actions from public browser JavaScript, so the button takes an authenticated repo user to the manual **Run workflow** control.
+The page's **Update Leaderboard** button triggers `update-leaderboard.yml` through the GitHub workflow dispatch API. GitHub requires an authenticated request for this, so the page asks for a fine-grained GitHub personal access token with **Actions: Read and write** access for this repository. The token is stored only in `sessionStorage`, so it is cleared when the browser session ends.
 
 ## Deploy
 

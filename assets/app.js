@@ -1,5 +1,10 @@
 const DATA_URL = "data/leaderboard.json";
 const WORKFLOW_FILE = "update-leaderboard.yml";
+const WORKFLOW_REF = "main";
+const DEFAULT_REPOSITORY = "rickyhyde-ship-it/Trust-The-Process-Challenge";
+const TOKEN_STORAGE_KEY = "ttpChallengeGitHubToken";
+
+import { dispatchWorkflow } from "./github-actions.js";
 
 const elements = {
   heroLeader: document.querySelector("#hero-leader"),
@@ -15,8 +20,15 @@ const elements = {
   feedCup: document.querySelector("#feed-cup"),
   topBars: document.querySelector("#top-bars"),
   clubGrid: document.querySelector("#club-grid"),
-  refreshDataButton: document.querySelector("#refresh-data-button")
+  refreshDataButton: document.querySelector("#refresh-data-button"),
+  refreshDataLabel: document.querySelector("#refresh-data-label"),
+  tokenDialog: document.querySelector("#token-dialog"),
+  tokenForm: document.querySelector("#token-form"),
+  tokenInput: document.querySelector("#github-token"),
+  tokenCloseButton: document.querySelector("#token-close-button")
 };
+
+let currentLeaderboardData = null;
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en-GB").format(Number(value) || 0);
@@ -83,14 +95,67 @@ function repositoryFromLocation() {
   return `${owner}/${repo}`;
 }
 
-function workflowUrl(data) {
-  const repository = data?.meta?.repository || repositoryFromLocation();
+function workflowRepository(data) {
+  return data?.meta?.repository || repositoryFromLocation() || DEFAULT_REPOSITORY;
+}
 
-  if (!repository) {
-    return "https://github.com/actions";
+function storedToken() {
+  return sessionStorage.getItem(TOKEN_STORAGE_KEY) || "";
+}
+
+function storeToken(token) {
+  sessionStorage.setItem(TOKEN_STORAGE_KEY, token);
+}
+
+function setUpdateButtonState({ label, busy = false }) {
+  elements.refreshDataButton.disabled = busy;
+  elements.refreshDataLabel.textContent = label;
+}
+
+function showUpdateStatus(message) {
+  elements.lastUpdated.textContent = message;
+}
+
+function openTokenDialog() {
+  elements.tokenInput.value = storedToken();
+  elements.tokenDialog.showModal();
+  elements.tokenInput.focus();
+}
+
+async function triggerLeaderboardUpdate(token) {
+  const data = currentLeaderboardData ?? {};
+  const repository = workflowRepository(data);
+  const ref = data?.meta?.branch || WORKFLOW_REF;
+
+  setUpdateButtonState({ label: "Starting Update", busy: true });
+  showUpdateStatus("Starting GitHub Actions update...");
+
+  try {
+    await dispatchWorkflow({
+      repository,
+      workflowFile: WORKFLOW_FILE,
+      ref,
+      token
+    });
+
+    setUpdateButtonState({ label: "Update Started" });
+    showUpdateStatus("Update started in GitHub Actions. Refreshing shortly...");
+    window.setTimeout(loadLeaderboard, 90_000);
+  } catch (error) {
+    setUpdateButtonState({ label: "Update Leaderboard" });
+    showUpdateStatus(error.message);
+  }
+}
+
+function handleUpdateClick() {
+  const token = storedToken();
+
+  if (!token) {
+    openTokenDialog();
+    return;
   }
 
-  return `https://github.com/${repository}/actions/workflows/${WORKFLOW_FILE}`;
+  triggerLeaderboardUpdate(token);
 }
 
 function renderOverview(data) {
@@ -238,6 +303,7 @@ async function loadLeaderboard() {
     }
 
     const data = await response.json();
+    currentLeaderboardData = data;
 
     renderOverview(data);
     renderFeed(data);
@@ -245,15 +311,27 @@ async function loadLeaderboard() {
     renderBars(data);
     renderClubs(data);
 
-    elements.refreshDataButton.addEventListener("click", () => {
-      window.open(workflowUrl(data), "_blank", "noopener,noreferrer");
-    });
   } catch (error) {
     renderError(error);
-    elements.refreshDataButton.addEventListener("click", () => {
-      window.open(workflowUrl(), "_blank", "noopener,noreferrer");
-    });
   }
 }
+
+elements.refreshDataButton.addEventListener("click", handleUpdateClick);
+elements.tokenCloseButton.addEventListener("click", () => {
+  elements.tokenDialog.close();
+});
+elements.tokenForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  const token = elements.tokenInput.value.trim();
+
+  if (!token) {
+    return;
+  }
+
+  storeToken(token);
+  elements.tokenDialog.close();
+  triggerLeaderboardUpdate(token);
+});
 
 loadLeaderboard();
