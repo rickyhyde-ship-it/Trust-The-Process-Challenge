@@ -8,7 +8,7 @@
       content="Trust The Process Challenge leaderboard for Season 14 football clubs."
     />
     <title>Trust The Process Challenge Leaderboard</title>
-    <link rel="stylesheet" href="assets/styles.css?v=20260520-5" />
+    <link rel="stylesheet" href="assets/styles.css?v=20260520-6" />
   </head>
   <body>
     <header class="site-header">
@@ -31,12 +31,12 @@
         <a href="#stats">Stats</a>
         <a href="#rules">Rules</a>
       </nav>
-      <button class="ghost-button compact" id="refresh-data-button" type="button">
+      <button class="ghost-button compact" id="header-last-updated" type="button" disabled>
         <svg viewBox="0 0 24 24" aria-hidden="true">
-          <path d="M20 12a8 8 0 1 1-2.34-5.66" />
-          <path d="M20 4v6h-6" />
+          <circle cx="12" cy="12" r="9" />
+          <path d="M12 7v5l3 2" />
         </svg>
-        <span id="refresh-data-label">Update Leaderboard</span>
+        <span id="header-last-updated-label">Last updated: loading</span>
       </button>
     </header>
 
@@ -276,44 +276,6 @@
       <p>Live standings for the Trust The Process Challenge.</p>
     </footer>
 
-    <dialog class="token-dialog" id="token-dialog">
-      <form method="dialog" class="token-card" id="token-form">
-        <div class="token-heading">
-          <h2>Run Leaderboard Update</h2>
-          <button class="icon-button" type="button" id="token-close-button" aria-label="Close">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M18 6L6 18" />
-              <path d="M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        <p>
-          Paste a GitHub fine-grained token with Actions read/write access for
-          this repository. It is kept only in this browser session.
-        </p>
-        <label for="github-token">GitHub token</label>
-        <input
-          id="github-token"
-          name="github-token"
-          type="password"
-          autocomplete="off"
-          placeholder="github_pat_..."
-          required
-        />
-        <div class="token-actions">
-          <a
-            class="ghost-button"
-            href="https://github.com/settings/personal-access-tokens/new"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Create Token
-          </a>
-          <button class="primary-button" type="submit">Run Update</button>
-        </div>
-      </form>
-    </dialog>
-
-    <script src="assets/app.js?v=20260520-5" type="module"></script>
+    <script src="assets/app.js?v=20260520-6" type="module"></script>
   </body>
 </html>

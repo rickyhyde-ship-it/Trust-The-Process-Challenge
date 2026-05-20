@@ -1,10 +1,4 @@
 const DATA_URL = "data/leaderboard.json";
-const WORKFLOW_FILE = "update-leaderboard.yml";
-const WORKFLOW_REF = "main";
-const DEFAULT_REPOSITORY = "rickyhyde-ship-it/Trust-The-Process-Challenge";
-const TOKEN_STORAGE_KEY = "ttpChallengeGitHubToken";
-
-import { dispatchWorkflow } from "./github-actions.js";
 
 const elements = {
   heroLeader: document.querySelector("#hero-leader"),
@@ -20,15 +14,8 @@ const elements = {
   feedCup: document.querySelector("#feed-cup"),
   topBars: document.querySelector("#top-bars"),
   clubGrid: document.querySelector("#club-grid"),
-  refreshDataButton: document.querySelector("#refresh-data-button"),
-  refreshDataLabel: document.querySelector("#refresh-data-label"),
-  tokenDialog: document.querySelector("#token-dialog"),
-  tokenForm: document.querySelector("#token-form"),
-  tokenInput: document.querySelector("#github-token"),
-  tokenCloseButton: document.querySelector("#token-close-button")
+  headerLastUpdatedLabel: document.querySelector("#header-last-updated-label")
 };
-
-let currentLeaderboardData = null;
 
 function formatNumber(value) {
   return new Intl.NumberFormat("en-GB").format(Number(value) || 0);
@@ -81,85 +68,9 @@ function badgeStyle(row) {
   return `background: linear-gradient(145deg, ${main}, #07121a 72%); border-color: ${secondary};`;
 }
 
-function repositoryFromLocation() {
-  const host = window.location.hostname;
-  const pathParts = window.location.pathname.split("/").filter(Boolean);
-
-  if (!host.endsWith(".github.io")) {
-    return null;
-  }
-
-  const owner = host.replace(".github.io", "");
-  const repo = pathParts[0] || `${owner}.github.io`;
-
-  return `${owner}/${repo}`;
-}
-
-function workflowRepository(data) {
-  return data?.meta?.repository || repositoryFromLocation() || DEFAULT_REPOSITORY;
-}
-
-function storedToken() {
-  return sessionStorage.getItem(TOKEN_STORAGE_KEY) || "";
-}
-
-function storeToken(token) {
-  sessionStorage.setItem(TOKEN_STORAGE_KEY, token);
-}
-
-function setUpdateButtonState({ label, busy = false }) {
-  elements.refreshDataButton.disabled = busy;
-  elements.refreshDataLabel.textContent = label;
-}
-
-function showUpdateStatus(message) {
-  elements.lastUpdated.textContent = message;
-}
-
-function openTokenDialog() {
-  elements.tokenInput.value = storedToken();
-  elements.tokenDialog.showModal();
-  elements.tokenInput.focus();
-}
-
-async function triggerLeaderboardUpdate(token) {
-  const data = currentLeaderboardData ?? {};
-  const repository = workflowRepository(data);
-  const ref = data?.meta?.branch || WORKFLOW_REF;
-
-  setUpdateButtonState({ label: "Starting Update", busy: true });
-  showUpdateStatus("Starting GitHub Actions update...");
-
-  try {
-    await dispatchWorkflow({
-      repository,
-      workflowFile: WORKFLOW_FILE,
-      ref,
-      token
-    });
-
-    setUpdateButtonState({ label: "Update Started" });
-    showUpdateStatus("Update started in GitHub Actions. Refreshing shortly...");
-    window.setTimeout(loadLeaderboard, 90_000);
-  } catch (error) {
-    setUpdateButtonState({ label: "Update Leaderboard" });
-    showUpdateStatus(error.message);
-  }
-}
-
-function handleUpdateClick() {
-  const token = storedToken();
-
-  if (!token) {
-    openTokenDialog();
-    return;
-  }
-
-  triggerLeaderboardUpdate(token);
-}
-
 function renderOverview(data) {
   const leader = data.leader;
+  const updatedAt = formatUpdatedAt(data.meta?.generatedAt);
 
   elements.heroLeader.textContent = leader?.clubName || "No leader yet";
   elements.heroLeaderPoints.textContent = leader
@@ -169,7 +80,8 @@ function renderOverview(data) {
   elements.metricPlayed.textContent = formatNumber(data.totals?.played);
   elements.metricGoals.textContent = formatNumber(data.totals?.goalsFor);
   elements.metricPoints.textContent = formatNumber(data.totals?.points);
-  elements.lastUpdated.textContent = `Last updated: ${formatUpdatedAt(data.meta?.generatedAt)}`;
+  elements.lastUpdated.textContent = `Last updated: ${updatedAt}`;
+  elements.headerLastUpdatedLabel.textContent = `Last updated: ${updatedAt}`;
   elements.feedSeason.textContent = data.meta?.seasonName || "Season 14";
 }
 
@@ -284,7 +196,8 @@ function renderClubs(data) {
 
 function renderError(error) {
   elements.heroLeader.textContent = "Data unavailable";
-  elements.heroLeaderPoints.textContent = "Run the update workflow";
+  elements.heroLeaderPoints.textContent = "Waiting for the next scheduled update";
+  elements.headerLastUpdatedLabel.textContent = "Last updated: unavailable";
   elements.leaderboardBody.innerHTML = `
     <tr>
       <td colspan="11" class="table-message">${error.message}</td>
@@ -303,7 +216,6 @@ async function loadLeaderboard() {
     }
 
     const data = await response.json();
-    currentLeaderboardData = data;
 
     renderOverview(data);
     renderFeed(data);
@@ -315,23 +227,5 @@ async function loadLeaderboard() {
     renderError(error);
   }
 }
-
-elements.refreshDataButton.addEventListener("click", handleUpdateClick);
-elements.tokenCloseButton.addEventListener("click", () => {
-  elements.tokenDialog.close();
-});
-elements.tokenForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const token = elements.tokenInput.value.trim();
-
-  if (!token) {
-    return;
-  }
-
-  storeToken(token);
-  elements.tokenDialog.close();
-  triggerLeaderboardUpdate(token);
-});
 
 loadLeaderboard();

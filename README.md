@@ -12,13 +12,13 @@ Static GitHub Pages leaderboard for the Trust The Process Challenge.
 
 ## Update Button
 
-The page's **Update Leaderboard** button triggers `update-leaderboard.yml` through the GitHub workflow dispatch API. GitHub requires an authenticated request for this, so the page asks for a fine-grained GitHub personal access token with **Actions: Read and write** access for this repository. The token is stored only in `sessionStorage`, so it is cleared when the browser session ends.
+The header shows the last generated timestamp from `data/leaderboard.json`. Leaderboard data is refreshed automatically by `.github/workflows/update-leaderboard.yml` every 30 minutes, so visitors do not need GitHub access or tokens.
 
 ## Deploy
 
 1. Push the repository to GitHub.
 2. In repository settings, set Pages to **GitHub Actions**.
-3. Run **Update Leaderboard** once from Actions to create `data/leaderboard.json`.
+3. Run the update workflow once from Actions to create `data/leaderboard.json`.
 4. The Pages workflow deploys the static site on pushes to `main` or `master`.
 
 ## Local Commands
