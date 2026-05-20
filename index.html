@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Trust The Process Challenge leaderboard for Season 14 football clubs."
+    />
+    <title>Trust The Process Challenge Leaderboard</title>
+    <link rel="stylesheet" href="assets/styles.css?v=20260520-3" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Trust The Process Challenge">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 56" role="img">
+            <path d="M24 3l15 5v16c0 13-8 22-15 28C17 46 9 37 9 24V8l15-5z" />
+            <path d="M17 21l7-5 7 5-3 8h-8l-3-8z" />
+            <path d="M16 9l4-5 4 5 4-5 4 5" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Trust The Process</strong>
+          <span>Challenge</span>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#leaderboard" class="is-active">Leaderboard</a>
+        <a href="#clubs">Clubs</a>
+        <a href="#stats">Stats</a>
+        <a href="#rules">Rules</a>
+      </nav>
+      <button class="ghost-button compact" id="refresh-data-button" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20 12a8 8 0 1 1-2.34-5.66" />
+          <path d="M20 4v6h-6" />
+        </svg>
+        Update Leaderboard
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div>
+            <h1>Track Club <span>Performance</span></h1>
+            <p>
+              Live standings for the Trust The Process Challenge, scored from
+              Season 14 league and cup competition data.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-button" href="#leaderboard">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M5 20V9" />
+                  <path d="M12 20V4" />
+                  <path d="M19 20v-7" />
+                </svg>
+                View Leaderboard
+              </a>
+              <a class="ghost-button" href="#rules">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3l2.5 5.1 5.6.8-4 3.9.9 5.5-5-2.6-5 2.6.9-5.5-4-3.9 5.6-.8L12 3z" />
+                </svg>
+                Scoring Rules
+              </a>
+            </div>
+          </div>
+          <aside class="hero-panel" aria-label="Current leaderboard status">
+            <span class="panel-label">Current Leader</span>
+            <strong id="hero-leader">Loading...</strong>
+            <span id="hero-leader-points">Fetching GitHub Actions data</span>
+          </aside>
+        </div>
+      </section>
+
+      <section class="overview-grid" aria-label="Competition overview">
+        <article class="metric-card">
+          <span class="metric-icon people" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v2" />
+              <circle cx="9.5" cy="7" r="4" />
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </span>
+          <span>Clubs</span>
+          <strong id="metric-clubs">--</strong>
+          <small>Competing</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon pitch" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="3" y="4" width="18" height="16" rx="2" />
+              <path d="M12 4v16" />
+              <circle cx="12" cy="12" r="3" />
+              <path d="M3 9h4v6H3" />
+              <path d="M21 9h-4v6h4" />
+            </svg>
+          </span>
+          <span>Matches Played</span>
+          <strong id="metric-played">--</strong>
+          <small>League and cup</small>
+        </article>
+        <article class="metric-card">
+          <span class="metric-icon ball" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 6l4 3-1.5 5h-5L8 9l4-3z" />
+              <path d="M5 11l4.5 3" />
+              <path d="M19 11l-4.5 3" />
+              <path d="M9 21l.5-7" />
+              <path d="M15 21l-.5-7" />
+            </svg>
+          </span>
+          <span>Total Goals</span>
+          <strong id="metric-goals">--</strong>
+          <small>For all clubs</small>
+        </article>
+        <article class="metric-card leader-card">
+          <span class="metric-icon crown" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M4 19h16" />
+              <path d="M5 17l1-9 5 4 1-7 1 7 5-4 1 9H5z" />
+            </svg>
+          </span>
+          <span>Challenge Points</span>
+          <strong id="metric-points">--</strong>
+          <small>Custom scoring</small>
+        </article>
+      </section>
+
+      <section class="dashboard-layout" id="leaderboard">
+        <div class="leaderboard-panel">
+          <div class="panel-heading">
+            <h2>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M8 21h8" />
+                <path d="M12 17v4" />
+                <path d="M7 4h10v4a5 5 0 0 1-10 0V4z" />
+                <path d="M5 6H3a3 3 0 0 0 3 3h1" />
+                <path d="M19 6h2a3 3 0 0 1-3 3h-1" />
+              </svg>
+              Leaderboard
+            </h2>
+            <span id="last-updated">Waiting for data</span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Club</th>
+                  <th>Played</th>
+                  <th>LW</th>
+                  <th>CW</th>
+                  <th>D</th>
+                  <th>L</th>
+                  <th>GF</th>
+                  <th>GA</th>
+                  <th>GD</th>
+                  <th>Points</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-body">
+                <tr>
+                  <td colspan="11" class="table-message">Loading leaderboard...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="legend">
+            <span><i class="gold"></i>Top of the process</span>
+            <span><i class="cyan"></i>Positive goal difference</span>
+            <span><i class="red"></i>Cup awaiting stats</span>
+          </div>
+        </div>
+
+        <aside class="side-stack" id="stats">
+          <section class="side-panel">
+            <div class="panel-heading compact-heading">
+              <h2>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <rect x="4" y="5" width="16" height="16" rx="2" />
+                  <path d="M16 3v4" />
+                  <path d="M8 3v4" />
+                  <path d="M4 11h16" />
+                </svg>
+                Data Feed
+              </h2>
+            </div>
+            <dl class="feed-list">
+              <div>
+                <dt>Season</dt>
+                <dd id="feed-season">Season 14</dd>
+              </div>
+              <div>
+                <dt>League</dt>
+                <dd id="feed-league">Loading</dd>
+              </div>
+              <div>
+                <dt>Cup</dt>
+                <dd id="feed-cup">Framework ready</dd>
+              </div>
+              <div>
+                <dt>Source</dt>
+                <dd>GitHub Actions JSON</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="side-panel" id="rules">
+            <div class="panel-heading compact-heading">
+              <h2>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M12 3l2.5 5.1 5.6.8-4 3.9.9 5.5-5-2.6-5 2.6.9-5.5-4-3.9 5.6-.8L12 3z" />
+                </svg>
+                Rules
+              </h2>
+            </div>
+            <div class="rule-grid">
+              <article>
+                <strong>3</strong>
+                <span>Cup win</span>
+              </article>
+              <article>
+                <strong>2</strong>
+                <span>League win</span>
+              </article>
+              <article>
+                <strong>1</strong>
+                <span>Draw</span>
+              </article>
+            </div>
+          </section>
+
+          <section class="side-panel">
+            <div class="panel-heading compact-heading">
+              <h2>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M3 3v18h18" />
+                  <path d="M7 15l4-4 3 3 5-7" />
+                </svg>
+                Top Five
+              </h2>
+            </div>
+            <div class="bars" id="top-bars"></div>
+          </section>
+        </aside>
+      </section>
+
+      <section class="club-strip" id="clubs">
+        <div class="section-heading">
+          <h2>Challenge Clubs</h2>
+          <p>Twenty club IDs are fetched by the update workflow and ranked from live Season 14 competition stats.</p>
+        </div>
+        <div class="club-grid" id="club-grid"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top" aria-label="Trust The Process Challenge">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 56" role="img">
+            <path d="M24 3l15 5v16c0 13-8 22-15 28C17 46 9 37 9 24V8l15-5z" />
+            <path d="M17 21l7-5 7 5-3 8h-8l-3-8z" />
+            <path d="M16 9l4-5 4 5 4-5 4 5" />
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>Trust The Process</strong>
+          <span>Challenge</span>
+        </span>
+      </a>
+      <p>Live standings for the Trust The Process Challenge.</p>
+    </footer>
+
+    <script src="assets/app.js?v=20260520-3" type="module"></script>
+  </body>
+</html>

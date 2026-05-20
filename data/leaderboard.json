@@ -1,0 +1,1566 @@
+{
+  "meta": {
+    "generatedAt": "2026-05-20T21:14:59.768Z",
+    "seasonId": 24,
+    "seasonName": "Season 14",
+    "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
+    "repository": null,
+    "branch": null,
+    "clubIds": [
+      1367,
+      1776,
+      1100,
+      789,
+      761,
+      1627,
+      3585,
+      6844,
+      5004,
+      6162,
+      4251,
+      838,
+      2953,
+      1351,
+      2855,
+      256,
+      6640,
+      5753,
+      1611,
+      6813
+    ],
+    "rules": {
+      "leagueWin": 2,
+      "cupWin": 3,
+      "draw": 1,
+      "includedTypes": [
+        "LEAGUE",
+        "CUP"
+      ]
+    }
+  },
+  "totals": {
+    "clubs": 20,
+    "played": 19,
+    "points": 22,
+    "goalsFor": 24,
+    "goalsAgainst": 27,
+    "leagueWins": 9,
+    "cupWins": 0,
+    "draws": 4,
+    "cupStarted": 0
+  },
+  "leader": {
+    "clubId": 1367,
+    "clubName": "Trust The Process Algeria B",
+    "city": "Oran",
+    "country": "ALGERIA",
+    "colors": {
+      "main": "#194d33",
+      "secondary": "#f3f2f2"
+    },
+    "points": 2,
+    "leaguePoints": 2,
+    "cupPoints": 0,
+    "leagueWins": 1,
+    "cupWins": 0,
+    "draws": 0,
+    "losses": 0,
+    "played": 1,
+    "leaguePlayed": 1,
+    "cupPlayed": 0,
+    "goalsFor": 3,
+    "goalsAgainst": 0,
+    "goalDifference": 3,
+    "league": {
+      "id": 14813,
+      "name": "Flint – League 13",
+      "status": "LIVE",
+      "started": true,
+      "wins": 1,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 0,
+      "ranking": "3rd"
+    },
+    "cup": {
+      "id": 14345,
+      "name": "IMFF Cup - Season 14",
+      "status": "PLANNED",
+      "started": false,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "ranking": null
+    },
+    "competitions": [
+      {
+        "id": 14813,
+        "name": "Flint – League 13",
+        "status": "LIVE",
+        "type": "LEAGUE",
+        "stats": {
+          "ranking": "3rd",
+          "wins": 1,
+          "draws": 0,
+          "losses": 0,
+          "goals": 3,
+          "goalsAgainst": 0,
+          "points": 3
+        }
+      },
+      {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "type": "CUP",
+        "stats": null
+      }
+    ],
+    "rank": 1
+  },
+  "standings": [
+    {
+      "clubId": 1367,
+      "clubName": "Trust The Process Algeria B",
+      "city": "Oran",
+      "country": "ALGERIA",
+      "colors": {
+        "main": "#194d33",
+        "secondary": "#f3f2f2"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 0,
+      "goalDifference": 3,
+      "league": {
+        "id": 14813,
+        "name": "Flint – League 13",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 0,
+        "ranking": "3rd"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14813,
+          "name": "Flint – League 13",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "3rd",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 3,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "clubId": 838,
+      "clubName": "Trust The Process Italy: A",
+      "city": "Genoa",
+      "country": "ITALY",
+      "colors": {
+        "main": "#24714a",
+        "secondary": "#bd123f"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 2,
+      "goalDifference": 2,
+      "league": {
+        "id": 14811,
+        "name": "Flint – League 11",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 4,
+        "goalsAgainst": 2,
+        "ranking": "3rd"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14811,
+          "name": "Flint – League 11",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "3rd",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 4,
+            "goalsAgainst": 2,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "clubId": 2953,
+      "clubName": "Trust The Process Italy: B",
+      "city": "Vicenza",
+      "country": "ITALY",
+      "colors": {
+        "main": "#24714a",
+        "secondary": "#bd123f"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 1,
+      "goalDifference": 2,
+      "league": {
+        "id": 14822,
+        "name": "Flint – League 22",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 3,
+        "goalsAgainst": 1,
+        "ranking": "2nd"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14822,
+          "name": "Flint – League 22",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "2nd",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 3,
+            "goalsAgainst": 1,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "clubId": 1100,
+      "clubName": "Trust The Process Budapest: A",
+      "city": "Budapest",
+      "country": "HUNGARY",
+      "colors": {
+        "main": "#b9103c",
+        "secondary": "#226945"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "league": {
+        "id": 14801,
+        "name": "Flint – League 1",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "ranking": "3rd"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14801,
+          "name": "Flint – League 1",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "3rd",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 2,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "clubId": 5004,
+      "clubName": "Trust The Process Germany:B",
+      "city": "Potsdam",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#fcdc00",
+        "secondary": "#000000"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "league": {
+        "id": 14824,
+        "name": "Flint – League 24",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "ranking": "4th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14824,
+          "name": "Flint – League 24",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "4th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 2,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "clubId": 2855,
+      "clubName": "Trust The Process Kyiv: D",
+      "city": "Kyiv",
+      "country": "UKRAINE",
+      "colors": {
+        "main": "#1495d5",
+        "secondary": "#f4d915"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 0,
+      "goalDifference": 2,
+      "league": {
+        "id": 14819,
+        "name": "Flint – League 19",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 0,
+        "ranking": "5th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14819,
+          "name": "Flint – League 19",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "5th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 2,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "clubId": 3585,
+      "clubName": "Trust The Process Germany: D",
+      "city": "Bergisch Gladbach",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#000000",
+        "secondary": "#eb144c"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 0,
+      "goalDifference": 1,
+      "league": {
+        "id": 14805,
+        "name": "Flint – League 5",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "ranking": "5th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14805,
+          "name": "Flint – League 5",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "5th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 1,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "clubId": 1611,
+      "clubName": "Trust The Process Nigeria A",
+      "city": "Kano",
+      "country": "NIGERIA",
+      "colors": {
+        "main": "#158012",
+        "secondary": "#f1ebeb"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 0,
+      "goalDifference": 1,
+      "league": {
+        "id": 14814,
+        "name": "Flint – League 14",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "ranking": "4th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14814,
+          "name": "Flint – League 14",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "4th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 1,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "clubId": 6813,
+      "clubName": "Trust The Process Nigeria: C",
+      "city": "Ibadan",
+      "country": "NIGERIA",
+      "colors": {
+        "main": "#036f03",
+        "secondary": "#ffffff"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 0,
+      "goalDifference": 1,
+      "league": {
+        "id": 14839,
+        "name": "Flint – League 39",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 0,
+        "ranking": "5th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14839,
+          "name": "Flint – League 39",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "5th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 0,
+            "goals": 1,
+            "goalsAgainst": 0,
+            "points": 3
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "clubId": 6844,
+      "clubName": "Trust The Process Germany: F",
+      "city": "Düsseldorf",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#FF0000",
+        "secondary": "#FFD700"
+      },
+      "points": 1,
+      "leaguePoints": 1,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 2,
+      "goalDifference": 0,
+      "league": {
+        "id": 14807,
+        "name": "Flint – League 7",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 2,
+        "goalsAgainst": 2,
+        "ranking": "6th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14807,
+          "name": "Flint – League 7",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "6th",
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "goals": 2,
+            "goalsAgainst": 2,
+            "points": 1
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "clubId": 789,
+      "clubName": "Trust The Process Garoua: A",
+      "city": "Garoua",
+      "country": "CAMEROON",
+      "colors": {
+        "main": "#ce1126",
+        "secondary": "#fcdc00"
+      },
+      "points": 1,
+      "leaguePoints": 1,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "league": {
+        "id": 14844,
+        "name": "Flint – League 44",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "ranking": "5th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14844,
+          "name": "Flint – League 44",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "5th",
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "goals": 1,
+            "goalsAgainst": 1,
+            "points": 1
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "clubId": 1351,
+      "clubName": "Trust The Process Kyiv: B",
+      "city": "Kyiv",
+      "country": "UKRAINE",
+      "colors": {
+        "main": "#1495d5",
+        "secondary": "#f4d915"
+      },
+      "points": 1,
+      "leaguePoints": 1,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 1,
+      "goalDifference": 0,
+      "league": {
+        "id": 14812,
+        "name": "Flint – League 12",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 1,
+        "goalsAgainst": 1,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14812,
+          "name": "Flint – League 12",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "7th",
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "goals": 1,
+            "goalsAgainst": 1,
+            "points": 1
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "clubId": 256,
+      "clubName": "Trust The Process Kyiv: F",
+      "city": "Kyiv",
+      "country": "UKRAINE",
+      "colors": {
+        "main": "#fcdc00",
+        "secondary": "#0693e3"
+      },
+      "points": 1,
+      "leaguePoints": 1,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 0,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "league": {
+        "id": 14808,
+        "name": "Flint – League 8",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14808,
+          "name": "Flint – League 8",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "7th",
+            "wins": 0,
+            "draws": 1,
+            "losses": 0,
+            "goals": 0,
+            "goalsAgainst": 0,
+            "points": 1
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "clubId": 4251,
+      "clubName": "Trust The Process Indo: B",
+      "city": "Bandung",
+      "country": "INDONESIA",
+      "colors": {
+        "main": "#eb144c",
+        "secondary": "#ffffff"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 0,
+      "played": 0,
+      "leaguePlayed": 0,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "goalDifference": 0,
+      "league": {
+        "id": 14823,
+        "name": "Flint – League 23",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14823,
+          "name": "Flint – League 23",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "7th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 0,
+            "goals": 0,
+            "goalsAgainst": 0,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "clubId": 5753,
+      "clubName": "Trust The Process Morocco A",
+      "city": "Kenitra",
+      "country": "MOROCCO",
+      "colors": {
+        "main": "#ff0000",
+        "secondary": "#ffd700"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 1,
+      "goalsAgainst": 2,
+      "goalDifference": -1,
+      "league": {
+        "id": 14828,
+        "name": "Flint – League 28",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 1,
+        "goalsAgainst": 2,
+        "ranking": "8th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14828,
+          "name": "Flint – League 28",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "8th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "goals": 1,
+            "goalsAgainst": 2,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "clubId": 1627,
+      "clubName": "Trust The Process Germany: C",
+      "city": "Mönchengladbach",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#000000",
+        "secondary": "#fcb900"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 1,
+      "goalDifference": -1,
+      "league": {
+        "id": 14802,
+        "name": "Flint – League 2",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 1,
+        "ranking": "10th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14802,
+          "name": "Flint – League 2",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "10th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "goals": 0,
+            "goalsAgainst": 1,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "clubId": 6162,
+      "clubName": "Trust The Process Hungary: A",
+      "city": "Pécs",
+      "country": "HUNGARY",
+      "colors": {
+        "main": "#00FF00",
+        "secondary": "#e9ecef"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 2,
+      "goalDifference": -2,
+      "league": {
+        "id": 14892,
+        "name": "Flint – League 92",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 2,
+        "ranking": "8th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14892,
+          "name": "Flint – League 92",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "8th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "goals": 0,
+            "goalsAgainst": 2,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 17
+    },
+    {
+      "clubId": 6640,
+      "clubName": "Trust The Process Lithuania A",
+      "city": "Birštonas",
+      "country": "LITHUANIA",
+      "colors": {
+        "main": "#ffd700",
+        "secondary": "#ff0000"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 3,
+      "goalDifference": -3,
+      "league": {
+        "id": 14829,
+        "name": "Flint – League 29",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 3,
+        "ranking": "10th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14829,
+          "name": "Flint – League 29",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "10th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "goals": 0,
+            "goalsAgainst": 3,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 18
+    },
+    {
+      "clubId": 761,
+      "clubName": "Trust The Process Garoua: B",
+      "city": "Garoua",
+      "country": "CAMEROON",
+      "colors": {
+        "main": "#ce1126",
+        "secondary": "#fcdc00"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 5,
+      "goalDifference": -5,
+      "league": {
+        "id": 14880,
+        "name": "Flint – League 80",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 5,
+        "ranking": "10th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14880,
+          "name": "Flint – League 80",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "10th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "goals": 0,
+            "goalsAgainst": 5,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 19
+    },
+    {
+      "clubId": 1776,
+      "clubName": "Trust The Process Algeria C",
+      "city": "Sétif",
+      "country": "ALGERIA",
+      "colors": {
+        "main": "#337933",
+        "secondary": "#f7f5f3"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 1,
+      "leaguePlayed": 1,
+      "cupPlayed": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 7,
+      "goalDifference": -7,
+      "league": {
+        "id": 14868,
+        "name": "Flint – League 68",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 0,
+        "goalsAgainst": 7,
+        "ranking": "11th"
+      },
+      "cup": {
+        "id": 14345,
+        "name": "IMFF Cup - Season 14",
+        "status": "PLANNED",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 14868,
+          "name": "Flint – League 68",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "11th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 1,
+            "goals": 0,
+            "goalsAgainst": 7,
+            "points": 0
+          }
+        },
+        {
+          "id": 14345,
+          "name": "IMFF Cup - Season 14",
+          "status": "PLANNED",
+          "type": "CUP",
+          "stats": null
+        }
+      ],
+      "rank": 20
+    }
+  ]
+}
