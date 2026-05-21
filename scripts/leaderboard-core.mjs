@@ -82,7 +82,12 @@ function competitionSummary(competitions, type) {
   };
 }
 
-export function buildClubRow({ club, competitions, seasonId = SEASON_ID }) {
+export function buildClubRow({
+  club,
+  managerName = "",
+  competitions,
+  seasonId = SEASON_ID
+}) {
   const seasonCompetitions = filterSeasonCompetitions(competitions, seasonId);
   const totals = calculateCompetitionPoints(seasonCompetitions);
   const clubName = club?.name || `Club ${club?.id ?? "Unknown"}`;
@@ -90,6 +95,7 @@ export function buildClubRow({ club, competitions, seasonId = SEASON_ID }) {
   return {
     clubId: club?.id ?? null,
     clubName,
+    managerName,
     city: club?.city ?? "",
     country: club?.country ?? "",
     colors: {

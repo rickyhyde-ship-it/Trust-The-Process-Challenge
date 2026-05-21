@@ -571,10 +571,17 @@ tbody tr:first-child {
   line-height: 1.2;
 }
 
-.club-name span {
+.club-name span,
+.manager-cell {
   color: var(--muted);
   font-size: 11px;
   text-transform: uppercase;
+}
+
+.manager-cell {
+  min-width: 128px;
+  color: #dce4ea;
+  font-weight: 800;
 }
 
 .points-cell {

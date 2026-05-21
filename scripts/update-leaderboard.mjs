@@ -27,6 +27,29 @@ const CLUB_IDS = [
   6813
 ];
 
+const MANAGERS_BY_CLUB_ID = new Map([
+  [1367, "Pilipinoopao"],
+  [1776, "Sufcblades22"],
+  [1100, "Pepteta"],
+  [789, "Calvin"],
+  [761, "Hamez"],
+  [1627, "olavxela"],
+  [3585, "The Dollar Club"],
+  [6844, "Andrew Q"],
+  [5004, "Jeddy"],
+  [6162, "Gaffer Lewis"],
+  [4251, "RareRiverBadger"],
+  [838, "JPS"],
+  [2953, "Herndouzi"],
+  [1351, "Scoobersteveha"],
+  [2855, "SLDLRD"],
+  [256, "mythsalvatore"],
+  [6640, "BillyBremner"],
+  [5753, "SearleOnTheBall"],
+  [1611, "SRMonkey🐒"],
+  [6813, "Hoodwink"]
+]);
+
 const API_BASE_URL =
   "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod";
 
@@ -68,6 +91,7 @@ async function fetchClubRow(clubId) {
 
   return buildClubRow({
     club,
+    managerName: MANAGERS_BY_CLUB_ID.get(clubId) ?? "",
     competitions: unwrapCollection(competitionsPayload),
     seasonId: SEASON_ID
   });
@@ -116,6 +140,7 @@ async function main() {
       repository,
       branch,
       clubIds: CLUB_IDS,
+      managers: Object.fromEntries(MANAGERS_BY_CLUB_ID),
       rules: {
         leagueWin: 2,
         cupWin: 3,

@@ -77,6 +77,17 @@ describe("Trust The Process scoring", () => {
     assert.equal(row.cup.started, false);
   });
 
+  it("adds the assigned manager name to each club row", () => {
+    const row = buildClubRow({
+      club: { id: 1611, name: "Trust The Process Nigeria A" },
+      managerName: "SRMonkey🐒",
+      competitions: [],
+      seasonId: 24
+    });
+
+    assert.equal(row.managerName, "SRMonkey🐒");
+  });
+
   it("sorts by points, goal difference, goals for, then club name", () => {
     const rows = [
       { clubId: 1, clubName: "Zulu FC", points: 8, goalDifference: 2, goalsFor: 10 },

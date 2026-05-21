@@ -109,7 +109,7 @@ function renderTable(data) {
 
   if (rows.length === 0) {
     elements.leaderboardBody.innerHTML =
-      '<tr><td colspan="11" class="table-message">No leaderboard data yet.</td></tr>';
+      '<tr><td colspan="12" class="table-message">No leaderboard data yet.</td></tr>';
     return;
   }
 
@@ -117,6 +117,7 @@ function renderTable(data) {
     .map((row) => {
       const clubName = escapeHtml(row.clubName);
       const country = escapeHtml(row.country || "Club ID");
+      const managerName = escapeHtml(row.managerName || "Manager TBC");
       const goalClass =
         row.goalDifference > 0
           ? "positive"
@@ -136,6 +137,7 @@ function renderTable(data) {
               </span>
             </div>
           </td>
+          <td class="manager-cell">${managerName}</td>
           <td>${formatNumber(row.played)}</td>
           <td>${formatNumber(row.leagueWins)}</td>
           <td>${formatNumber(row.cupWins)}</td>
@@ -180,13 +182,14 @@ function renderClubs(data) {
     .map((row) => {
       const cupText = row.cup?.started ? `${row.cupWins} cup wins` : "Cup pending";
       const clubName = escapeHtml(row.clubName);
+      const managerName = escapeHtml(row.managerName || "Manager TBC");
 
       return `
         <article class="club-tile">
           <span class="club-badge" style="${badgeStyle(row)}">${escapeHtml(initials(row.clubName))}</span>
           <span>
             <strong>${clubName}</strong>
-            <span>${formatNumber(row.points)} pts | ${cupText}</span>
+            <span>${managerName} | ${formatNumber(row.points)} pts | ${cupText}</span>
           </span>
         </article>
       `;
@@ -200,7 +203,7 @@ function renderError(error) {
   elements.headerLastUpdatedLabel.textContent = "Last updated: unavailable";
   elements.leaderboardBody.innerHTML = `
     <tr>
-      <td colspan="11" class="table-message">${error.message}</td>
+      <td colspan="12" class="table-message">${error.message}</td>
     </tr>
   `;
 }
