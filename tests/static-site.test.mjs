@@ -16,4 +16,13 @@ describe("public leaderboard page", () => {
     assert.doesNotMatch(html, /github-token|token-dialog|Run Leaderboard Update/);
     assert.doesNotMatch(app, /dispatchWorkflow|sessionStorage|github-actions/);
   });
+
+  it("keeps the header and leaderboard chrome focused", () => {
+    const html = readFileSync("index.html", "utf8");
+
+    assert.doesNotMatch(html, /<a href="#stats">Stats<\/a>/);
+    assert.doesNotMatch(html, /Top of the process|Positive goal difference|Cup awaiting stats/);
+    assert.match(html, /Points awarded per result/);
+    assert.match(html, /\+3 pts/);
+  });
 });
