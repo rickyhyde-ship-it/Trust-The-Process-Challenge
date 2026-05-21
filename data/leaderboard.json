@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generatedAt": "2026-05-21T06:39:37.758Z",
+    "generatedAt": "2026-05-21T10:08:59.177Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
-    "repository": null,
-    "branch": null,
+    "repository": "rickyhyde-ship-it/Trust-The-Process-Challenge",
+    "branch": "main",
     "clubIds": [
       1367,
       1776,
