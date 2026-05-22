@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-22T15:47:07.198Z",
+    "generatedAt": "2026-05-22T17:48:42.259Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -107,9 +107,9 @@
       "ranking": "2nd"
     },
     "cup": {
-      "id": 14345,
-      "name": "IMFF Cup - Season 14",
-      "status": "PLANNED",
+      "id": 15236,
+      "name": "Aspirants Cup – Tier 168",
+      "status": "LIVE",
       "started": false,
       "wins": 0,
       "draws": 0,
@@ -119,6 +119,13 @@
       "ranking": null
     },
     "competitions": [
+      {
+        "id": 15236,
+        "name": "Aspirants Cup – Tier 168",
+        "status": "LIVE",
+        "type": "CUP",
+        "stats": null
+      },
       {
         "id": 14822,
         "name": "Flint – League 22",
@@ -181,9 +188,9 @@
         "ranking": "2nd"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15236,
+        "name": "Aspirants Cup – Tier 168",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -193,6 +200,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15236,
+          "name": "Aspirants Cup – Tier 168",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14822,
           "name": "Flint – League 22",
@@ -254,9 +268,9 @@
         "ranking": "3rd"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -266,6 +280,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14814,
           "name": "Flint – League 14",
@@ -327,9 +348,9 @@
         "ranking": "3rd"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15236,
+        "name": "Aspirants Cup – Tier 168",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -339,6 +360,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15236,
+          "name": "Aspirants Cup – Tier 168",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14839,
           "name": "Flint – League 39",
@@ -400,9 +428,9 @@
         "ranking": "4th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15236,
+        "name": "Aspirants Cup – Tier 168",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -412,6 +440,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15236,
+          "name": "Aspirants Cup – Tier 168",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14813,
           "name": "Flint – League 13",
@@ -473,9 +508,9 @@
         "ranking": "4th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -485,6 +520,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14824,
           "name": "Flint – League 24",
@@ -546,9 +588,9 @@
         "ranking": "5th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -558,6 +600,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14823,
           "name": "Flint – League 23",
@@ -619,9 +668,9 @@
         "ranking": "5th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -631,6 +680,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14811,
           "name": "Flint – League 11",
@@ -692,9 +748,9 @@
         "ranking": "7th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -704,6 +760,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14807,
           "name": "Flint – League 7",
@@ -765,9 +828,9 @@
         "ranking": "6th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -777,6 +840,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14801,
           "name": "Flint – League 1",
@@ -838,9 +908,9 @@
         "ranking": "5th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -850,6 +920,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14819,
           "name": "Flint – League 19",
@@ -911,9 +988,9 @@
         "ranking": "7th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -923,6 +1000,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14844,
           "name": "Flint – League 44",
@@ -984,9 +1068,9 @@
         "ranking": "8th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -996,6 +1080,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14802,
           "name": "Flint – League 2",
@@ -1057,9 +1148,9 @@
         "ranking": "7th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1069,6 +1160,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14808,
           "name": "Flint – League 8",
@@ -1130,9 +1228,9 @@
         "ranking": "6th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1142,6 +1240,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14805,
           "name": "Flint – League 5",
@@ -1203,9 +1308,9 @@
         "ranking": "7th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1215,6 +1320,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14829,
           "name": "Flint – League 29",
@@ -1276,9 +1388,9 @@
         "ranking": "6th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15235,
+        "name": "Aspirants Cup – Tier 167",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1288,6 +1400,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15235,
+          "name": "Aspirants Cup – Tier 167",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14868,
           "name": "Flint – League 68",
@@ -1349,9 +1468,9 @@
         "ranking": "9th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1361,6 +1480,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14880,
           "name": "Flint – League 80",
@@ -1422,9 +1548,9 @@
         "ranking": "9th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1434,6 +1560,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14812,
           "name": "Flint – League 12",
@@ -1495,9 +1628,9 @@
         "ranking": "11th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1507,6 +1640,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14828,
           "name": "Flint – League 28",
@@ -1568,9 +1708,9 @@
         "ranking": "12th"
       },
       "cup": {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
         "started": false,
         "wins": 0,
         "draws": 0,
@@ -1580,6 +1720,13 @@
         "ranking": null
       },
       "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
         {
           "id": 14892,
           "name": "Flint – League 92",
