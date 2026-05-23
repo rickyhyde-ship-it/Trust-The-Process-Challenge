@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-23T20:04:05.431Z",
+    "generatedAt": "2026-05-23T21:14:21.512Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -140,13 +140,6 @@
           "goalsAgainst": 4,
           "points": 9
         }
-      },
-      {
-        "id": 14345,
-        "name": "IMFF Cup - Season 14",
-        "status": "PLANNED",
-        "type": "CUP",
-        "stats": null
       }
     ],
     "rank": 1
@@ -221,13 +214,6 @@
             "goalsAgainst": 4,
             "points": 9
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 1
@@ -301,13 +287,6 @@
             "goalsAgainst": 4,
             "points": 7
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 2
@@ -381,13 +360,6 @@
             "goalsAgainst": 4,
             "points": 7
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 3
@@ -461,13 +433,6 @@
             "goalsAgainst": 4,
             "points": 6
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 4
@@ -541,13 +506,6 @@
             "goalsAgainst": 2,
             "points": 5
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 5
@@ -621,13 +579,6 @@
             "goalsAgainst": 2,
             "points": 5
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 6
@@ -701,13 +652,6 @@
             "goalsAgainst": 5,
             "points": 6
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 7
@@ -781,13 +725,6 @@
             "goalsAgainst": 7,
             "points": 6
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 8
@@ -861,13 +798,6 @@
             "goalsAgainst": 9,
             "points": 6
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 9
@@ -941,13 +871,6 @@
             "goalsAgainst": 8,
             "points": 6
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 10
@@ -1021,13 +944,6 @@
             "goalsAgainst": 10,
             "points": 6
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 11
@@ -1101,13 +1017,6 @@
             "goalsAgainst": 2,
             "points": 3
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 12
@@ -1181,13 +1090,6 @@
             "goalsAgainst": 5,
             "points": 4
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 13
@@ -1261,13 +1163,6 @@
             "goalsAgainst": 5,
             "points": 2
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 14
@@ -1341,13 +1236,6 @@
             "goalsAgainst": 5,
             "points": 3
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 15
@@ -1421,13 +1309,6 @@
             "goalsAgainst": 8,
             "points": 2
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 16
@@ -1501,13 +1382,6 @@
             "goalsAgainst": 8,
             "points": 2
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 17
@@ -1581,13 +1455,6 @@
             "goalsAgainst": 8,
             "points": 3
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 18
@@ -1661,13 +1528,6 @@
             "goalsAgainst": 8,
             "points": 0
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 19
@@ -1741,13 +1601,6 @@
             "goalsAgainst": 12,
             "points": 0
           }
-        },
-        {
-          "id": 14345,
-          "name": "IMFF Cup - Season 14",
-          "status": "PLANNED",
-          "type": "CUP",
-          "stats": null
         }
       ],
       "rank": 20
