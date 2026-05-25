@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-25T17:39:38.020Z",
+    "generatedAt": "2026-05-25T19:23:11.412Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -62,10 +62,10 @@
   },
   "totals": {
     "clubs": 20,
-    "played": 116,
+    "played": 117,
     "points": 101,
     "goalsFor": 112,
-    "goalsAgainst": 178,
+    "goalsAgainst": 179,
     "leagueWins": 30,
     "cupWins": 4,
     "draws": 29,
@@ -817,13 +817,13 @@
       "leagueWins": 2,
       "cupWins": 0,
       "draws": 2,
-      "losses": 1,
-      "played": 5,
-      "leaguePlayed": 4,
+      "losses": 2,
+      "played": 6,
+      "leaguePlayed": 5,
       "cupPlayed": 1,
       "goalsFor": 4,
-      "goalsAgainst": 5,
-      "goalDifference": -1,
+      "goalsAgainst": 6,
+      "goalDifference": -2,
       "league": {
         "id": 14823,
         "name": "Flint – League 23",
@@ -831,9 +831,9 @@
         "started": true,
         "wins": 2,
         "draws": 2,
-        "losses": 0,
+        "losses": 1,
         "goalsFor": 4,
-        "goalsAgainst": 2,
+        "goalsAgainst": 3,
         "ranking": "4th"
       },
       "cup": {
@@ -873,9 +873,9 @@
             "ranking": "4th",
             "wins": 2,
             "draws": 2,
-            "losses": 0,
+            "losses": 1,
             "goals": 4,
-            "goalsAgainst": 2,
+            "goalsAgainst": 3,
             "points": 8
           }
         }
@@ -1077,7 +1077,7 @@
         "losses": 2,
         "goalsFor": 6,
         "goalsAgainst": 7,
-        "ranking": "6th"
+        "ranking": "7th"
       },
       "cup": {
         "id": 15236,
@@ -1113,7 +1113,7 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
+            "ranking": "7th",
             "wins": 2,
             "draws": 1,
             "losses": 2,
