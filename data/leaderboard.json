@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-05-31T17:01:39.503Z",
+    "generatedAt": "2026-05-31T18:43:01.799Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -267,7 +267,7 @@
         "losses": 3,
         "goalsFor": 11,
         "goalsAgainst": 10,
-        "ranking": "7th"
+        "ranking": "8th"
       },
       "cup": {
         "id": 15237,
@@ -303,7 +303,7 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "7th",
+            "ranking": "8th",
             "wins": 3,
             "draws": 3,
             "losses": 3,
@@ -510,7 +510,7 @@
         "losses": 5,
         "goalsFor": 14,
         "goalsAgainst": 13,
-        "ranking": "5th"
+        "ranking": "6th"
       },
       "cup": {
         "id": 15238,
@@ -546,7 +546,7 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "5th",
+            "ranking": "6th",
             "wins": 4,
             "draws": 1,
             "losses": 5,
