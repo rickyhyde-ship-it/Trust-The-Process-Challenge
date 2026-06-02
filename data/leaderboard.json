@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-02T18:07:14.850Z",
+    "generatedAt": "2026-06-02T21:29:38.401Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -62,13 +62,13 @@
   },
   "totals": {
     "clubs": 20,
-    "played": 337,
-    "points": 302,
-    "goalsFor": 335,
-    "goalsAgainst": 504,
+    "played": 338,
+    "points": 303,
+    "goalsFor": 336,
+    "goalsAgainst": 505,
     "leagueWins": 60,
     "cupWins": 32,
-    "draws": 86,
+    "draws": 87,
     "cupStarted": 20
   },
   "leader": {
@@ -81,18 +81,18 @@
       "main": "#ce1126",
       "secondary": "#fcdc00"
     },
-    "points": 22,
-    "leaguePoints": 11,
+    "points": 23,
+    "leaguePoints": 12,
     "cupPoints": 11,
     "leagueWins": 4,
     "cupWins": 3,
-    "draws": 5,
+    "draws": 6,
     "losses": 4,
-    "played": 16,
-    "leaguePlayed": 10,
+    "played": 17,
+    "leaguePlayed": 11,
     "cupPlayed": 6,
-    "goalsFor": 25,
-    "goalsAgainst": 19,
+    "goalsFor": 26,
+    "goalsAgainst": 20,
     "goalDifference": 6,
     "league": {
       "id": 14844,
@@ -100,11 +100,11 @@
       "status": "LIVE",
       "started": true,
       "wins": 4,
-      "draws": 3,
+      "draws": 4,
       "losses": 3,
-      "goalsFor": 14,
-      "goalsAgainst": 11,
-      "ranking": "6th"
+      "goalsFor": 15,
+      "goalsAgainst": 12,
+      "ranking": "5th"
     },
     "cup": {
       "id": 15237,
@@ -140,13 +140,13 @@
         "status": "LIVE",
         "type": "LEAGUE",
         "stats": {
-          "ranking": "6th",
+          "ranking": "5th",
           "wins": 4,
-          "draws": 3,
+          "draws": 4,
           "losses": 3,
-          "goals": 14,
-          "goalsAgainst": 11,
-          "points": 15
+          "goals": 15,
+          "goalsAgainst": 12,
+          "points": 16
         }
       }
     ],
@@ -163,18 +163,18 @@
         "main": "#ce1126",
         "secondary": "#fcdc00"
       },
-      "points": 22,
-      "leaguePoints": 11,
+      "points": 23,
+      "leaguePoints": 12,
       "cupPoints": 11,
       "leagueWins": 4,
       "cupWins": 3,
-      "draws": 5,
+      "draws": 6,
       "losses": 4,
-      "played": 16,
-      "leaguePlayed": 10,
+      "played": 17,
+      "leaguePlayed": 11,
       "cupPlayed": 6,
-      "goalsFor": 25,
-      "goalsAgainst": 19,
+      "goalsFor": 26,
+      "goalsAgainst": 20,
       "goalDifference": 6,
       "league": {
         "id": 14844,
@@ -182,11 +182,11 @@
         "status": "LIVE",
         "started": true,
         "wins": 4,
-        "draws": 3,
+        "draws": 4,
         "losses": 3,
-        "goalsFor": 14,
-        "goalsAgainst": 11,
-        "ranking": "6th"
+        "goalsFor": 15,
+        "goalsAgainst": 12,
+        "ranking": "5th"
       },
       "cup": {
         "id": 15237,
@@ -222,13 +222,13 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
+            "ranking": "5th",
             "wins": 4,
-            "draws": 3,
+            "draws": 4,
             "losses": 3,
-            "goals": 14,
-            "goalsAgainst": 11,
-            "points": 15
+            "goals": 15,
+            "goalsAgainst": 12,
+            "points": 16
           }
         }
       ],
@@ -348,7 +348,7 @@
         "losses": 3,
         "goalsFor": 13,
         "goalsAgainst": 13,
-        "ranking": "5th"
+        "ranking": "6th"
       },
       "cup": {
         "id": 15238,
@@ -384,7 +384,7 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "5th",
+            "ranking": "6th",
             "wins": 5,
             "draws": 3,
             "losses": 3,
