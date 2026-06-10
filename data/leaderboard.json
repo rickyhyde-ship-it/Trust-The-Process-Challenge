@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-10T14:34:59.183Z",
+    "generatedAt": "2026-06-10T17:55:10.425Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -62,11 +62,11 @@
   },
   "totals": {
     "clubs": 20,
-    "played": 425,
-    "points": 372,
-    "goalsFor": 430,
-    "goalsAgainst": 627,
-    "leagueWins": 87,
+    "played": 427,
+    "points": 374,
+    "goalsFor": 434,
+    "goalsAgainst": 631,
+    "leagueWins": 88,
     "cupWins": 32,
     "draws": 102,
     "cupStarted": 20
@@ -81,30 +81,30 @@
       "main": "#ce1126",
       "secondary": "#fcdc00"
     },
-    "points": 29,
-    "leaguePoints": 18,
+    "points": 31,
+    "leaguePoints": 20,
     "cupPoints": 11,
-    "leagueWins": 6,
+    "leagueWins": 7,
     "cupWins": 3,
     "draws": 8,
     "losses": 5,
-    "played": 22,
-    "leaguePlayed": 15,
+    "played": 23,
+    "leaguePlayed": 16,
     "cupPlayed": 7,
-    "goalsFor": 38,
+    "goalsFor": 41,
     "goalsAgainst": 27,
-    "goalDifference": 11,
+    "goalDifference": 14,
     "league": {
       "id": 14844,
       "name": "Flint – League 44",
       "status": "LIVE",
       "started": true,
-      "wins": 6,
+      "wins": 7,
       "draws": 6,
       "losses": 3,
-      "goalsFor": 25,
+      "goalsFor": 28,
       "goalsAgainst": 16,
-      "ranking": "5th"
+      "ranking": "4th"
     },
     "cup": {
       "id": 15237,
@@ -140,13 +140,13 @@
         "status": "LIVE",
         "type": "LEAGUE",
         "stats": {
-          "ranking": "5th",
-          "wins": 6,
+          "ranking": "4th",
+          "wins": 7,
           "draws": 6,
           "losses": 3,
-          "goals": 25,
+          "goals": 28,
           "goalsAgainst": 16,
-          "points": 24
+          "points": 27
         }
       }
     ],
@@ -163,30 +163,30 @@
         "main": "#ce1126",
         "secondary": "#fcdc00"
       },
-      "points": 29,
-      "leaguePoints": 18,
+      "points": 31,
+      "leaguePoints": 20,
       "cupPoints": 11,
-      "leagueWins": 6,
+      "leagueWins": 7,
       "cupWins": 3,
       "draws": 8,
       "losses": 5,
-      "played": 22,
-      "leaguePlayed": 15,
+      "played": 23,
+      "leaguePlayed": 16,
       "cupPlayed": 7,
-      "goalsFor": 38,
+      "goalsFor": 41,
       "goalsAgainst": 27,
-      "goalDifference": 11,
+      "goalDifference": 14,
       "league": {
         "id": 14844,
         "name": "Flint – League 44",
         "status": "LIVE",
         "started": true,
-        "wins": 6,
+        "wins": 7,
         "draws": 6,
         "losses": 3,
-        "goalsFor": 25,
+        "goalsFor": 28,
         "goalsAgainst": 16,
-        "ranking": "5th"
+        "ranking": "4th"
       },
       "cup": {
         "id": 15237,
@@ -222,13 +222,13 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "5th",
-            "wins": 6,
+            "ranking": "4th",
+            "wins": 7,
             "draws": 6,
             "losses": 3,
-            "goals": 25,
+            "goals": 28,
             "goalsAgainst": 16,
-            "points": 24
+            "points": 27
           }
         }
       ],
@@ -1465,13 +1465,13 @@
       "leagueWins": 2,
       "cupWins": 2,
       "draws": 5,
-      "losses": 13,
-      "played": 22,
-      "leaguePlayed": 15,
+      "losses": 14,
+      "played": 23,
+      "leaguePlayed": 16,
       "cupPlayed": 7,
-      "goalsFor": 15,
-      "goalsAgainst": 38,
-      "goalDifference": -23,
+      "goalsFor": 16,
+      "goalsAgainst": 42,
+      "goalDifference": -26,
       "league": {
         "id": 14892,
         "name": "Flint – League 92",
@@ -1479,9 +1479,9 @@
         "started": true,
         "wins": 2,
         "draws": 4,
-        "losses": 9,
-        "goalsFor": 8,
-        "goalsAgainst": 30,
+        "losses": 10,
+        "goalsFor": 9,
+        "goalsAgainst": 34,
         "ranking": "11th"
       },
       "cup": {
@@ -1521,9 +1521,9 @@
             "ranking": "11th",
             "wins": 2,
             "draws": 4,
-            "losses": 9,
-            "goals": 8,
-            "goalsAgainst": 30,
+            "losses": 10,
+            "goals": 9,
+            "goalsAgainst": 34,
             "points": 10
           }
         }
