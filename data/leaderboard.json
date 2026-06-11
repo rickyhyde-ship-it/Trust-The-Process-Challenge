@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-06-11T16:49:48.495Z",
+    "generatedAt": "2026-06-11T19:32:02.568Z",
     "seasonId": 24,
     "seasonName": "Season 14",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -62,13 +62,13 @@
   },
   "totals": {
     "clubs": 20,
-    "played": 445,
-    "points": 386,
-    "goalsFor": 448,
-    "goalsAgainst": 657,
-    "leagueWins": 92,
+    "played": 465,
+    "points": 397,
+    "goalsFor": 464,
+    "goalsAgainst": 701,
+    "leagueWins": 95,
     "cupWins": 32,
-    "draws": 106,
+    "draws": 111,
     "cupStarted": 20
   },
   "leader": {
@@ -87,13 +87,13 @@
     "leagueWins": 7,
     "cupWins": 3,
     "draws": 8,
-    "losses": 5,
-    "played": 23,
-    "leaguePlayed": 16,
+    "losses": 6,
+    "played": 24,
+    "leaguePlayed": 17,
     "cupPlayed": 7,
-    "goalsFor": 41,
-    "goalsAgainst": 27,
-    "goalDifference": 14,
+    "goalsFor": 42,
+    "goalsAgainst": 29,
+    "goalDifference": 13,
     "league": {
       "id": 14844,
       "name": "Flint – League 44",
@@ -101,10 +101,10 @@
       "started": true,
       "wins": 7,
       "draws": 6,
-      "losses": 3,
-      "goalsFor": 28,
-      "goalsAgainst": 16,
-      "ranking": "5th"
+      "losses": 4,
+      "goalsFor": 29,
+      "goalsAgainst": 18,
+      "ranking": "6th"
     },
     "cup": {
       "id": 15237,
@@ -140,12 +140,12 @@
         "status": "LIVE",
         "type": "LEAGUE",
         "stats": {
-          "ranking": "5th",
+          "ranking": "6th",
           "wins": 7,
           "draws": 6,
-          "losses": 3,
-          "goals": 28,
-          "goalsAgainst": 16,
+          "losses": 4,
+          "goals": 29,
+          "goalsAgainst": 18,
           "points": 27
         }
       }
@@ -169,13 +169,13 @@
       "leagueWins": 7,
       "cupWins": 3,
       "draws": 8,
-      "losses": 5,
-      "played": 23,
-      "leaguePlayed": 16,
+      "losses": 6,
+      "played": 24,
+      "leaguePlayed": 17,
       "cupPlayed": 7,
-      "goalsFor": 41,
-      "goalsAgainst": 27,
-      "goalDifference": 14,
+      "goalsFor": 42,
+      "goalsAgainst": 29,
+      "goalDifference": 13,
       "league": {
         "id": 14844,
         "name": "Flint – League 44",
@@ -183,10 +183,10 @@
         "started": true,
         "wins": 7,
         "draws": 6,
-        "losses": 3,
-        "goalsFor": 28,
-        "goalsAgainst": 16,
-        "ranking": "5th"
+        "losses": 4,
+        "goalsFor": 29,
+        "goalsAgainst": 18,
+        "ranking": "6th"
       },
       "cup": {
         "id": 15237,
@@ -222,12 +222,12 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "5th",
+            "ranking": "6th",
             "wins": 7,
             "draws": 6,
-            "losses": 3,
-            "goals": 28,
-            "goalsAgainst": 16,
+            "losses": 4,
+            "goals": 29,
+            "goalsAgainst": 18,
             "points": 27
           }
         }
@@ -250,13 +250,13 @@
       "leagueWins": 7,
       "cupWins": 3,
       "draws": 3,
-      "losses": 10,
-      "played": 23,
-      "leaguePlayed": 16,
+      "losses": 11,
+      "played": 24,
+      "leaguePlayed": 17,
       "cupPlayed": 7,
-      "goalsFor": 33,
-      "goalsAgainst": 31,
-      "goalDifference": 2,
+      "goalsFor": 35,
+      "goalsAgainst": 35,
+      "goalDifference": 0,
       "league": {
         "id": 14805,
         "name": "Flint – League 5",
@@ -264,9 +264,9 @@
         "started": true,
         "wins": 7,
         "draws": 3,
-        "losses": 6,
-        "goalsFor": 25,
-        "goalsAgainst": 18,
+        "losses": 7,
+        "goalsFor": 27,
+        "goalsAgainst": 22,
         "ranking": "6th"
       },
       "cup": {
@@ -306,9 +306,9 @@
             "ranking": "6th",
             "wins": 7,
             "draws": 3,
-            "losses": 6,
-            "goals": 25,
-            "goalsAgainst": 18,
+            "losses": 7,
+            "goals": 27,
+            "goalsAgainst": 22,
             "points": 24
           }
         }
@@ -325,18 +325,18 @@
         "main": "#158012",
         "secondary": "#f1ebeb"
       },
-      "points": 25,
-      "leaguePoints": 18,
+      "points": 26,
+      "leaguePoints": 19,
       "cupPoints": 7,
       "leagueWins": 7,
       "cupWins": 2,
-      "draws": 5,
+      "draws": 6,
       "losses": 8,
-      "played": 22,
-      "leaguePlayed": 16,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 28,
-      "goalsAgainst": 30,
+      "goalsFor": 30,
+      "goalsAgainst": 32,
       "goalDifference": -2,
       "league": {
         "id": 14814,
@@ -344,11 +344,11 @@
         "status": "LIVE",
         "started": true,
         "wins": 7,
-        "draws": 4,
+        "draws": 5,
         "losses": 5,
-        "goalsFor": 22,
-        "goalsAgainst": 24,
-        "ranking": "6th"
+        "goalsFor": 24,
+        "goalsAgainst": 26,
+        "ranking": "7th"
       },
       "cup": {
         "id": 15238,
@@ -384,13 +384,13 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
+            "ranking": "7th",
             "wins": 7,
-            "draws": 4,
+            "draws": 5,
             "losses": 5,
-            "goals": 22,
-            "goalsAgainst": 24,
-            "points": 25
+            "goals": 24,
+            "goalsAgainst": 26,
+            "points": 26
           }
         }
       ],
@@ -412,13 +412,13 @@
       "leagueWins": 7,
       "cupWins": 2,
       "draws": 4,
-      "losses": 9,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 10,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
       "goalsFor": 29,
-      "goalsAgainst": 26,
-      "goalDifference": 3,
+      "goalsAgainst": 27,
+      "goalDifference": 2,
       "league": {
         "id": 14819,
         "name": "Flint – League 19",
@@ -426,10 +426,10 @@
         "started": true,
         "wins": 7,
         "draws": 1,
-        "losses": 8,
+        "losses": 9,
         "goalsFor": 21,
-        "goalsAgainst": 20,
-        "ranking": "5th"
+        "goalsAgainst": 21,
+        "ranking": "6th"
       },
       "cup": {
         "id": 15238,
@@ -465,17 +465,98 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "5th",
+            "ranking": "6th",
             "wins": 7,
             "draws": 1,
-            "losses": 8,
+            "losses": 9,
             "goals": 21,
-            "goalsAgainst": 20,
+            "goalsAgainst": 21,
             "points": 22
           }
         }
       ],
       "rank": 4
+    },
+    {
+      "clubId": 5004,
+      "clubName": "Trust The Process Germany:B",
+      "managerName": "Jeddy",
+      "city": "Potsdam",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#fcdc00",
+        "secondary": "#000000"
+      },
+      "points": 23,
+      "leaguePoints": 17,
+      "cupPoints": 6,
+      "leagueWins": 8,
+      "cupWins": 1,
+      "draws": 4,
+      "losses": 10,
+      "played": 23,
+      "leaguePlayed": 17,
+      "cupPlayed": 6,
+      "goalsFor": 26,
+      "goalsAgainst": 31,
+      "goalDifference": -5,
+      "league": {
+        "id": 14824,
+        "name": "Flint – League 24",
+        "status": "LIVE",
+        "started": true,
+        "wins": 8,
+        "draws": 1,
+        "losses": 8,
+        "goalsFor": 23,
+        "goalsAgainst": 27,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 3,
+        "goalsAgainst": 4,
+        "ranking": "Group Stage"
+      },
+      "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": {
+            "ranking": "Group Stage",
+            "wins": 1,
+            "draws": 3,
+            "losses": 2,
+            "goals": 3,
+            "goalsAgainst": 4,
+            "points": 6
+          }
+        },
+        {
+          "id": 14824,
+          "name": "Flint – League 24",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "7th",
+            "wins": 8,
+            "draws": 1,
+            "losses": 8,
+            "goals": 23,
+            "goalsAgainst": 27,
+            "points": 25
+          }
+        }
+      ],
+      "rank": 5
     },
     {
       "clubId": 2953,
@@ -493,13 +574,13 @@
       "leagueWins": 7,
       "cupWins": 2,
       "draws": 2,
-      "losses": 11,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 12,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 29,
-      "goalsAgainst": 43,
-      "goalDifference": -14,
+      "goalsFor": 30,
+      "goalsAgainst": 48,
+      "goalDifference": -18,
       "league": {
         "id": 14822,
         "name": "Flint – League 22",
@@ -507,9 +588,9 @@
         "started": true,
         "wins": 7,
         "draws": 2,
-        "losses": 7,
-        "goalsFor": 22,
-        "goalsAgainst": 27,
+        "losses": 8,
+        "goalsFor": 23,
+        "goalsAgainst": 32,
         "ranking": "6th"
       },
       "cup": {
@@ -549,66 +630,66 @@
             "ranking": "6th",
             "wins": 7,
             "draws": 2,
-            "losses": 7,
-            "goals": 22,
-            "goalsAgainst": 27,
+            "losses": 8,
+            "goals": 23,
+            "goalsAgainst": 32,
             "points": 23
           }
         }
       ],
-      "rank": 5
+      "rank": 6
     },
     {
-      "clubId": 5004,
-      "clubName": "Trust The Process Germany:B",
-      "managerName": "Jeddy",
-      "city": "Potsdam",
-      "country": "GERMANY",
+      "clubId": 1776,
+      "clubName": "Trust The Process Algeria C",
+      "managerName": "Sufcblades22",
+      "city": "Sétif",
+      "country": "ALGERIA",
       "colors": {
-        "main": "#fcdc00",
-        "secondary": "#000000"
+        "main": "#337933",
+        "secondary": "#f7f5f3"
       },
       "points": 21,
       "leaguePoints": 15,
       "cupPoints": 6,
-      "leagueWins": 7,
+      "leagueWins": 5,
       "cupWins": 1,
-      "draws": 4,
-      "losses": 10,
-      "played": 22,
-      "leaguePlayed": 16,
+      "draws": 8,
+      "losses": 9,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 24,
-      "goalsAgainst": 30,
-      "goalDifference": -6,
+      "goalsFor": 29,
+      "goalsAgainst": 41,
+      "goalDifference": -12,
       "league": {
-        "id": 14824,
-        "name": "Flint – League 24",
+        "id": 14868,
+        "name": "Flint – League 68",
         "status": "LIVE",
         "started": true,
-        "wins": 7,
-        "draws": 1,
-        "losses": 8,
-        "goalsFor": 21,
-        "goalsAgainst": 26,
-        "ranking": "7th"
+        "wins": 5,
+        "draws": 5,
+        "losses": 7,
+        "goalsFor": 20,
+        "goalsAgainst": 32,
+        "ranking": "8th"
       },
       "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
+        "id": 15235,
+        "name": "Aspirants Cup – Tier 167",
         "status": "LIVE",
         "started": true,
         "wins": 1,
         "draws": 3,
         "losses": 2,
-        "goalsFor": 3,
-        "goalsAgainst": 4,
+        "goalsFor": 9,
+        "goalsAgainst": 9,
         "ranking": "Group Stage"
       },
       "competitions": [
         {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
+          "id": 15235,
+          "name": "Aspirants Cup – Tier 167",
           "status": "LIVE",
           "type": "CUP",
           "stats": {
@@ -616,28 +697,28 @@
             "wins": 1,
             "draws": 3,
             "losses": 2,
-            "goals": 3,
-            "goalsAgainst": 4,
+            "goals": 9,
+            "goalsAgainst": 9,
             "points": 6
           }
         },
         {
-          "id": 14824,
-          "name": "Flint – League 24",
+          "id": 14868,
+          "name": "Flint – League 68",
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "7th",
-            "wins": 7,
-            "draws": 1,
-            "losses": 8,
-            "goals": 21,
-            "goalsAgainst": 26,
-            "points": 22
+            "ranking": "8th",
+            "wins": 5,
+            "draws": 5,
+            "losses": 7,
+            "goals": 20,
+            "goalsAgainst": 32,
+            "points": 20
           }
         }
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "clubId": 1351,
@@ -655,13 +736,13 @@
       "leagueWins": 4,
       "cupWins": 2,
       "draws": 7,
-      "losses": 10,
-      "played": 23,
-      "leaguePlayed": 16,
+      "losses": 11,
+      "played": 24,
+      "leaguePlayed": 17,
       "cupPlayed": 7,
-      "goalsFor": 23,
-      "goalsAgainst": 35,
-      "goalDifference": -12,
+      "goalsFor": 24,
+      "goalsAgainst": 37,
+      "goalDifference": -13,
       "league": {
         "id": 14812,
         "name": "Flint – League 12",
@@ -669,9 +750,9 @@
         "started": true,
         "wins": 4,
         "draws": 4,
-        "losses": 8,
-        "goalsFor": 18,
-        "goalsAgainst": 30,
+        "losses": 9,
+        "goalsFor": 19,
+        "goalsAgainst": 32,
         "ranking": "10th"
       },
       "cup": {
@@ -711,14 +792,14 @@
             "ranking": "10th",
             "wins": 4,
             "draws": 4,
-            "losses": 8,
-            "goals": 18,
-            "goalsAgainst": 30,
+            "losses": 9,
+            "goals": 19,
+            "goalsAgainst": 32,
             "points": 16
           }
         }
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "clubId": 256,
@@ -736,13 +817,13 @@
       "leagueWins": 4,
       "cupWins": 0,
       "draws": 12,
-      "losses": 6,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 7,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
       "goalsFor": 22,
-      "goalsAgainst": 23,
-      "goalDifference": -1,
+      "goalsAgainst": 24,
+      "goalDifference": -2,
       "league": {
         "id": 14808,
         "name": "Flint – League 8",
@@ -750,9 +831,9 @@
         "started": true,
         "wins": 4,
         "draws": 8,
-        "losses": 4,
+        "losses": 5,
         "goalsFor": 21,
-        "goalsAgainst": 17,
+        "goalsAgainst": 18,
         "ranking": "7th"
       },
       "cup": {
@@ -792,176 +873,14 @@
             "ranking": "7th",
             "wins": 4,
             "draws": 8,
-            "losses": 4,
+            "losses": 5,
             "goals": 21,
-            "goalsAgainst": 17,
+            "goalsAgainst": 18,
             "points": 20
           }
         }
       ],
-      "rank": 8
-    },
-    {
-      "clubId": 1627,
-      "clubName": "Trust The Process Germany: C",
-      "managerName": "olavxela",
-      "city": "Mönchengladbach",
-      "country": "GERMANY",
-      "colors": {
-        "main": "#000000",
-        "secondary": "#fcb900"
-      },
-      "points": 20,
-      "leaguePoints": 11,
-      "cupPoints": 9,
-      "leagueWins": 4,
-      "cupWins": 3,
-      "draws": 3,
-      "losses": 12,
-      "played": 22,
-      "leaguePlayed": 16,
-      "cupPlayed": 6,
-      "goalsFor": 18,
-      "goalsAgainst": 28,
-      "goalDifference": -10,
-      "league": {
-        "id": 14802,
-        "name": "Flint – League 2",
-        "status": "LIVE",
-        "started": true,
-        "wins": 4,
-        "draws": 3,
-        "losses": 9,
-        "goalsFor": 11,
-        "goalsAgainst": 22,
-        "ranking": "10th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "LIVE",
-        "started": true,
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "goalsFor": 7,
-        "goalsAgainst": 6,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "LIVE",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 3,
-            "draws": 0,
-            "losses": 3,
-            "goals": 7,
-            "goalsAgainst": 6,
-            "points": 9
-          }
-        },
-        {
-          "id": 14802,
-          "name": "Flint – League 2",
-          "status": "LIVE",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "10th",
-            "wins": 4,
-            "draws": 3,
-            "losses": 9,
-            "goals": 11,
-            "goalsAgainst": 22,
-            "points": 15
-          }
-        }
-      ],
       "rank": 9
-    },
-    {
-      "clubId": 1776,
-      "clubName": "Trust The Process Algeria C",
-      "managerName": "Sufcblades22",
-      "city": "Sétif",
-      "country": "ALGERIA",
-      "colors": {
-        "main": "#337933",
-        "secondary": "#f7f5f3"
-      },
-      "points": 20,
-      "leaguePoints": 14,
-      "cupPoints": 6,
-      "leagueWins": 5,
-      "cupWins": 1,
-      "draws": 7,
-      "losses": 9,
-      "played": 22,
-      "leaguePlayed": 16,
-      "cupPlayed": 6,
-      "goalsFor": 28,
-      "goalsAgainst": 40,
-      "goalDifference": -12,
-      "league": {
-        "id": 14868,
-        "name": "Flint – League 68",
-        "status": "LIVE",
-        "started": true,
-        "wins": 5,
-        "draws": 4,
-        "losses": 7,
-        "goalsFor": 19,
-        "goalsAgainst": 31,
-        "ranking": "8th"
-      },
-      "cup": {
-        "id": 15235,
-        "name": "Aspirants Cup – Tier 167",
-        "status": "LIVE",
-        "started": true,
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 9,
-        "goalsAgainst": 9,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15235,
-          "name": "Aspirants Cup – Tier 167",
-          "status": "LIVE",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 3,
-            "losses": 2,
-            "goals": 9,
-            "goalsAgainst": 9,
-            "points": 6
-          }
-        },
-        {
-          "id": 14868,
-          "name": "Flint – League 68",
-          "status": "LIVE",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "8th",
-            "wins": 5,
-            "draws": 4,
-            "losses": 7,
-            "goals": 19,
-            "goalsAgainst": 31,
-            "points": 19
-          }
-        }
-      ],
-      "rank": 10
     },
     {
       "clubId": 6813,
@@ -973,18 +892,18 @@
         "main": "#036f03",
         "secondary": "#ffffff"
       },
-      "points": 19,
-      "leaguePoints": 13,
+      "points": 20,
+      "leaguePoints": 14,
       "cupPoints": 6,
       "leagueWins": 5,
       "cupWins": 1,
-      "draws": 6,
+      "draws": 7,
       "losses": 10,
-      "played": 22,
-      "leaguePlayed": 16,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 21,
-      "goalsAgainst": 32,
+      "goalsFor": 22,
+      "goalsAgainst": 33,
       "goalDifference": -11,
       "league": {
         "id": 14839,
@@ -992,11 +911,11 @@
         "status": "LIVE",
         "started": true,
         "wins": 5,
-        "draws": 3,
+        "draws": 4,
         "losses": 8,
-        "goalsFor": 16,
-        "goalsAgainst": 25,
-        "ranking": "8th"
+        "goalsFor": 17,
+        "goalsAgainst": 26,
+        "ranking": "9th"
       },
       "cup": {
         "id": 15236,
@@ -1032,13 +951,94 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "8th",
+            "ranking": "9th",
             "wins": 5,
-            "draws": 3,
+            "draws": 4,
             "losses": 8,
-            "goals": 16,
-            "goalsAgainst": 25,
-            "points": 18
+            "goals": 17,
+            "goalsAgainst": 26,
+            "points": 19
+          }
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "clubId": 1627,
+      "clubName": "Trust The Process Germany: C",
+      "managerName": "olavxela",
+      "city": "Mönchengladbach",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#000000",
+        "secondary": "#fcb900"
+      },
+      "points": 20,
+      "leaguePoints": 11,
+      "cupPoints": 9,
+      "leagueWins": 4,
+      "cupWins": 3,
+      "draws": 3,
+      "losses": 13,
+      "played": 23,
+      "leaguePlayed": 17,
+      "cupPlayed": 6,
+      "goalsFor": 18,
+      "goalsAgainst": 29,
+      "goalDifference": -11,
+      "league": {
+        "id": 14802,
+        "name": "Flint – League 2",
+        "status": "LIVE",
+        "started": true,
+        "wins": 4,
+        "draws": 3,
+        "losses": 10,
+        "goalsFor": 11,
+        "goalsAgainst": 23,
+        "ranking": "9th"
+      },
+      "cup": {
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
+        "started": true,
+        "wins": 3,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 7,
+        "goalsAgainst": 6,
+        "ranking": "Group Stage"
+      },
+      "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": {
+            "ranking": "Group Stage",
+            "wins": 3,
+            "draws": 0,
+            "losses": 3,
+            "goals": 7,
+            "goalsAgainst": 6,
+            "points": 9
+          }
+        },
+        {
+          "id": 14802,
+          "name": "Flint – League 2",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "9th",
+            "wins": 4,
+            "draws": 3,
+            "losses": 10,
+            "goals": 11,
+            "goalsAgainst": 23,
+            "points": 15
           }
         }
       ],
@@ -1054,29 +1054,29 @@
         "main": "#24714a",
         "secondary": "#bd123f"
       },
-      "points": 18,
-      "leaguePoints": 11,
+      "points": 20,
+      "leaguePoints": 13,
       "cupPoints": 7,
-      "leagueWins": 5,
+      "leagueWins": 6,
       "cupWins": 1,
       "draws": 5,
       "losses": 11,
-      "played": 22,
-      "leaguePlayed": 16,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 17,
-      "goalsAgainst": 34,
-      "goalDifference": -17,
+      "goalsFor": 19,
+      "goalsAgainst": 35,
+      "goalDifference": -16,
       "league": {
         "id": 14811,
         "name": "Flint – League 11",
         "status": "LIVE",
         "started": true,
-        "wins": 5,
+        "wins": 6,
         "draws": 1,
         "losses": 10,
-        "goalsFor": 14,
-        "goalsAgainst": 31,
+        "goalsFor": 16,
+        "goalsAgainst": 32,
         "ranking": "9th"
       },
       "cup": {
@@ -1114,12 +1114,12 @@
           "type": "LEAGUE",
           "stats": {
             "ranking": "9th",
-            "wins": 5,
+            "wins": 6,
             "draws": 1,
             "losses": 10,
-            "goals": 14,
-            "goalsAgainst": 31,
-            "points": 16
+            "goals": 16,
+            "goalsAgainst": 32,
+            "points": 19
           }
         }
       ],
@@ -1135,18 +1135,18 @@
         "main": "#b9103c",
         "secondary": "#226945"
       },
-      "points": 17,
-      "leaguePoints": 10,
+      "points": 18,
+      "leaguePoints": 11,
       "cupPoints": 7,
       "leagueWins": 4,
       "cupWins": 2,
-      "draws": 3,
+      "draws": 4,
       "losses": 13,
-      "played": 22,
-      "leaguePlayed": 16,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 24,
-      "goalsAgainst": 34,
+      "goalsFor": 25,
+      "goalsAgainst": 35,
       "goalDifference": -10,
       "league": {
         "id": 14801,
@@ -1154,10 +1154,10 @@
         "status": "LIVE",
         "started": true,
         "wins": 4,
-        "draws": 2,
+        "draws": 3,
         "losses": 10,
-        "goalsFor": 19,
-        "goalsAgainst": 27,
+        "goalsFor": 20,
+        "goalsAgainst": 28,
         "ranking": "9th"
       },
       "cup": {
@@ -1196,96 +1196,15 @@
           "stats": {
             "ranking": "9th",
             "wins": 4,
-            "draws": 2,
+            "draws": 3,
             "losses": 10,
-            "goals": 19,
-            "goalsAgainst": 27,
-            "points": 14
+            "goals": 20,
+            "goalsAgainst": 28,
+            "points": 15
           }
         }
       ],
       "rank": 13
-    },
-    {
-      "clubId": 6844,
-      "clubName": "Trust The Process Germany: F",
-      "managerName": "Andrew Q",
-      "city": "Düsseldorf",
-      "country": "GERMANY",
-      "colors": {
-        "main": "#FF0000",
-        "secondary": "#FFD700"
-      },
-      "points": 17,
-      "leaguePoints": 8,
-      "cupPoints": 9,
-      "leagueWins": 2,
-      "cupWins": 2,
-      "draws": 7,
-      "losses": 12,
-      "played": 23,
-      "leaguePlayed": 16,
-      "cupPlayed": 7,
-      "goalsFor": 21,
-      "goalsAgainst": 34,
-      "goalDifference": -13,
-      "league": {
-        "id": 14807,
-        "name": "Flint – League 7",
-        "status": "LIVE",
-        "started": true,
-        "wins": 2,
-        "draws": 4,
-        "losses": 10,
-        "goalsFor": 14,
-        "goalsAgainst": 27,
-        "ranking": "11th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "LIVE",
-        "started": true,
-        "wins": 2,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 7,
-        "goalsAgainst": 7,
-        "ranking": "Round of 16"
-      },
-      "competitions": [
-        {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "LIVE",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 2,
-            "draws": 3,
-            "losses": 2,
-            "goals": 7,
-            "goalsAgainst": 7,
-            "points": 9
-          }
-        },
-        {
-          "id": 14807,
-          "name": "Flint – League 7",
-          "status": "LIVE",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "11th",
-            "wins": 2,
-            "draws": 4,
-            "losses": 10,
-            "goals": 14,
-            "goalsAgainst": 27,
-            "points": 10
-          }
-        }
-      ],
-      "rank": 14
     },
     {
       "clubId": 4251,
@@ -1297,15 +1216,15 @@
         "main": "#eb144c",
         "secondary": "#ffffff"
       },
-      "points": 16,
-      "leaguePoints": 12,
+      "points": 17,
+      "leaguePoints": 13,
       "cupPoints": 4,
       "leagueWins": 3,
       "cupWins": 1,
-      "draws": 7,
+      "draws": 8,
       "losses": 11,
-      "played": 22,
-      "leaguePlayed": 16,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
       "goalsFor": 14,
       "goalsAgainst": 26,
@@ -1316,7 +1235,7 @@
         "status": "LIVE",
         "started": true,
         "wins": 3,
-        "draws": 6,
+        "draws": 7,
         "losses": 7,
         "goalsFor": 8,
         "goalsAgainst": 15,
@@ -1358,15 +1277,177 @@
           "stats": {
             "ranking": "8th",
             "wins": 3,
-            "draws": 6,
+            "draws": 7,
             "losses": 7,
             "goals": 8,
             "goalsAgainst": 15,
-            "points": 15
+            "points": 16
+          }
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "clubId": 6844,
+      "clubName": "Trust The Process Germany: F",
+      "managerName": "Andrew Q",
+      "city": "Düsseldorf",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#FF0000",
+        "secondary": "#FFD700"
+      },
+      "points": 17,
+      "leaguePoints": 8,
+      "cupPoints": 9,
+      "leagueWins": 2,
+      "cupWins": 2,
+      "draws": 7,
+      "losses": 13,
+      "played": 24,
+      "leaguePlayed": 17,
+      "cupPlayed": 7,
+      "goalsFor": 21,
+      "goalsAgainst": 38,
+      "goalDifference": -17,
+      "league": {
+        "id": 14807,
+        "name": "Flint – League 7",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 4,
+        "losses": 11,
+        "goalsFor": 14,
+        "goalsAgainst": 31,
+        "ranking": "11th"
+      },
+      "cup": {
+        "id": 15238,
+        "name": "Aspirants Cup – Tier 170",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 7,
+        "goalsAgainst": 7,
+        "ranking": "Round of 16"
+      },
+      "competitions": [
+        {
+          "id": 15238,
+          "name": "Aspirants Cup – Tier 170",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": {
+            "ranking": "Round of 16",
+            "wins": 2,
+            "draws": 3,
+            "losses": 2,
+            "goals": 7,
+            "goalsAgainst": 7,
+            "points": 9
+          }
+        },
+        {
+          "id": 14807,
+          "name": "Flint – League 7",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "11th",
+            "wins": 2,
+            "draws": 4,
+            "losses": 11,
+            "goals": 14,
+            "goalsAgainst": 31,
+            "points": 10
           }
         }
       ],
       "rank": 15
+    },
+    {
+      "clubId": 6162,
+      "clubName": "Trust The Process Hungary: A",
+      "managerName": "Gaffer Lewis",
+      "city": "Pécs",
+      "country": "HUNGARY",
+      "colors": {
+        "main": "#00FF00",
+        "secondary": "#e9ecef"
+      },
+      "points": 17,
+      "leaguePoints": 10,
+      "cupPoints": 7,
+      "leagueWins": 3,
+      "cupWins": 2,
+      "draws": 5,
+      "losses": 14,
+      "played": 24,
+      "leaguePlayed": 17,
+      "cupPlayed": 7,
+      "goalsFor": 17,
+      "goalsAgainst": 42,
+      "goalDifference": -25,
+      "league": {
+        "id": 14892,
+        "name": "Flint – League 92",
+        "status": "LIVE",
+        "started": true,
+        "wins": 3,
+        "draws": 4,
+        "losses": 10,
+        "goalsFor": 10,
+        "goalsAgainst": 34,
+        "ranking": "10th"
+      },
+      "cup": {
+        "id": 15237,
+        "name": "Aspirants Cup – Tier 169",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 1,
+        "losses": 4,
+        "goalsFor": 7,
+        "goalsAgainst": 8,
+        "ranking": "Round of 16"
+      },
+      "competitions": [
+        {
+          "id": 15237,
+          "name": "Aspirants Cup – Tier 169",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": {
+            "ranking": "Round of 16",
+            "wins": 2,
+            "draws": 1,
+            "losses": 4,
+            "goals": 7,
+            "goalsAgainst": 8,
+            "points": 7
+          }
+        },
+        {
+          "id": 14892,
+          "name": "Flint – League 92",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "10th",
+            "wins": 3,
+            "draws": 4,
+            "losses": 10,
+            "goals": 10,
+            "goalsAgainst": 34,
+            "points": 13
+          }
+        }
+      ],
+      "rank": 16
     },
     {
       "clubId": 6640,
@@ -1384,13 +1465,13 @@
       "leagueWins": 3,
       "cupWins": 1,
       "draws": 6,
-      "losses": 12,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 13,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
-      "goalsFor": 15,
-      "goalsAgainst": 37,
-      "goalDifference": -22,
+      "goalsFor": 16,
+      "goalsAgainst": 40,
+      "goalDifference": -24,
       "league": {
         "id": 14829,
         "name": "Flint – League 29",
@@ -1398,9 +1479,9 @@
         "started": true,
         "wins": 3,
         "draws": 4,
-        "losses": 9,
-        "goalsFor": 11,
-        "goalsAgainst": 30,
+        "losses": 10,
+        "goalsFor": 12,
+        "goalsAgainst": 33,
         "ranking": "10th"
       },
       "cup": {
@@ -1440,14 +1521,14 @@
             "ranking": "10th",
             "wins": 3,
             "draws": 4,
-            "losses": 9,
-            "goals": 11,
-            "goalsAgainst": 30,
+            "losses": 10,
+            "goals": 12,
+            "goalsAgainst": 33,
             "points": 13
           }
         }
       ],
-      "rank": 16
+      "rank": 17
     },
     {
       "clubId": 1367,
@@ -1465,13 +1546,13 @@
       "leagueWins": 2,
       "cupWins": 2,
       "draws": 5,
-      "losses": 13,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 14,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
       "goalsFor": 16,
-      "goalsAgainst": 40,
-      "goalDifference": -24,
+      "goalsAgainst": 51,
+      "goalDifference": -35,
       "league": {
         "id": 14813,
         "name": "Flint – League 13",
@@ -1479,9 +1560,9 @@
         "started": true,
         "wins": 2,
         "draws": 4,
-        "losses": 10,
+        "losses": 11,
         "goalsFor": 9,
-        "goalsAgainst": 29,
+        "goalsAgainst": 40,
         "ranking": "11th"
       },
       "cup": {
@@ -1521,90 +1602,9 @@
             "ranking": "11th",
             "wins": 2,
             "draws": 4,
-            "losses": 10,
+            "losses": 11,
             "goals": 9,
-            "goalsAgainst": 29,
-            "points": 10
-          }
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "clubId": 6162,
-      "clubName": "Trust The Process Hungary: A",
-      "managerName": "Gaffer Lewis",
-      "city": "Pécs",
-      "country": "HUNGARY",
-      "colors": {
-        "main": "#00FF00",
-        "secondary": "#e9ecef"
-      },
-      "points": 15,
-      "leaguePoints": 8,
-      "cupPoints": 7,
-      "leagueWins": 2,
-      "cupWins": 2,
-      "draws": 5,
-      "losses": 14,
-      "played": 23,
-      "leaguePlayed": 16,
-      "cupPlayed": 7,
-      "goalsFor": 16,
-      "goalsAgainst": 42,
-      "goalDifference": -26,
-      "league": {
-        "id": 14892,
-        "name": "Flint – League 92",
-        "status": "LIVE",
-        "started": true,
-        "wins": 2,
-        "draws": 4,
-        "losses": 10,
-        "goalsFor": 9,
-        "goalsAgainst": 34,
-        "ranking": "11th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "LIVE",
-        "started": true,
-        "wins": 2,
-        "draws": 1,
-        "losses": 4,
-        "goalsFor": 7,
-        "goalsAgainst": 8,
-        "ranking": "Round of 16"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "LIVE",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 2,
-            "draws": 1,
-            "losses": 4,
-            "goals": 7,
-            "goalsAgainst": 8,
-            "points": 7
-          }
-        },
-        {
-          "id": 14892,
-          "name": "Flint – League 92",
-          "status": "LIVE",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "11th",
-            "wins": 2,
-            "draws": 4,
-            "losses": 10,
-            "goals": 9,
-            "goalsAgainst": 34,
+            "goalsAgainst": 40,
             "points": 10
           }
         }
@@ -1627,13 +1627,13 @@
       "leagueWins": 4,
       "cupWins": 0,
       "draws": 4,
-      "losses": 14,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 15,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
       "goalsFor": 17,
-      "goalsAgainst": 31,
-      "goalDifference": -14,
+      "goalsAgainst": 33,
+      "goalDifference": -16,
       "league": {
         "id": 14828,
         "name": "Flint – League 28",
@@ -1641,9 +1641,9 @@
         "started": true,
         "wins": 4,
         "draws": 2,
-        "losses": 10,
+        "losses": 11,
         "goalsFor": 15,
-        "goalsAgainst": 24,
+        "goalsAgainst": 26,
         "ranking": "8th"
       },
       "cup": {
@@ -1683,9 +1683,9 @@
             "ranking": "8th",
             "wins": 4,
             "draws": 2,
-            "losses": 10,
+            "losses": 11,
             "goals": 15,
-            "goalsAgainst": 24,
+            "goalsAgainst": 26,
             "points": 14
           }
         }
@@ -1708,13 +1708,13 @@
       "leagueWins": 3,
       "cupWins": 1,
       "draws": 3,
-      "losses": 15,
-      "played": 22,
-      "leaguePlayed": 16,
+      "losses": 16,
+      "played": 23,
+      "leaguePlayed": 17,
       "cupPlayed": 6,
       "goalsFor": 12,
-      "goalsAgainst": 34,
-      "goalDifference": -22,
+      "goalsAgainst": 35,
+      "goalDifference": -23,
       "league": {
         "id": 14880,
         "name": "Flint – League 80",
@@ -1722,10 +1722,10 @@
         "started": true,
         "wins": 3,
         "draws": 3,
-        "losses": 10,
+        "losses": 11,
         "goalsFor": 9,
-        "goalsAgainst": 26,
-        "ranking": "9th"
+        "goalsAgainst": 27,
+        "ranking": "10th"
       },
       "cup": {
         "id": 15238,
@@ -1761,12 +1761,12 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "9th",
+            "ranking": "10th",
             "wins": 3,
             "draws": 3,
-            "losses": 10,
+            "losses": 11,
             "goals": 9,
-            "goalsAgainst": 26,
+            "goalsAgainst": 27,
             "points": 12
           }
         }
