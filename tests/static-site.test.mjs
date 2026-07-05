@@ -41,4 +41,11 @@ describe("public leaderboard page", () => {
     assert.match(updateScript, /contracts\?type=MANAGER&period=currentSeason/);
     assert.doesNotMatch(updateScript, /MANAGERS_BY_CLUB_ID/);
   });
+
+  it("uses the Season 15 club list with club 2799 replacing club 256", () => {
+    const updateScript = readFileSync("scripts/update-leaderboard.mjs", "utf8");
+
+    assert.match(updateScript, /\b2799\b/);
+    assert.doesNotMatch(updateScript, /\b256\b/);
+  });
 });
