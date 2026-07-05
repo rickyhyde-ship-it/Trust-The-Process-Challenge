@@ -64,6 +64,21 @@ export function calculateCompetitionPoints(competitions = []) {
   );
 }
 
+export function extractManagerNameFromContracts(payload = {}) {
+  const contracts = Array.isArray(payload?.items)
+    ? payload.items
+    : Array.isArray(payload?.value)
+      ? payload.value
+      : [];
+  const managerWallet = contracts.at(-1)?.manager;
+
+  if (!managerWallet) {
+    return "";
+  }
+
+  return payload?.resources?.users?.[managerWallet]?.name ?? "";
+}
+
 function competitionSummary(competitions, type) {
   const competition = competitions.find((item) => item.type === type);
   const stats = competition?.stats ?? {};

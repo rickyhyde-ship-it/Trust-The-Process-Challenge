@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-05T18:57:51.206Z",
+    "generatedAt": "2026-07-05T19:43:54.354Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -26,22 +26,23 @@
       2855
     ],
     "managers": {
-      "256": "mythsalvatore",
-      "761": "Hamez",
-      "789": "Calvin",
-      "838": "JPS",
-      "1100": "Pepteta",
-      "1351": "Scoobersteveha",
-      "1367": "Pilipinoopao",
+      "155": "Cedrick",
+      "256": "",
+      "761": "JPS",
+      "789": "Calcy",
+      "838": "pacards",
+      "1100": "ClarkyIsland",
+      "1351": "BillyBremner",
+      "1367": "Jeddy",
       "1627": "olavxela",
-      "1776": "Sufcblades22",
-      "2855": "SLDLRD",
-      "2953": "Herndouzi",
-      "3585": "The Dollar Club",
-      "4251": "RareRiverBadger",
-      "5004": "Jeddy",
-      "6162": "Gaffer Lewis",
-      "6844": "Andrew Q"
+      "1776": "GriffDog1103",
+      "2855": "SRMonkey🐒",
+      "2953": "GustovMillan",
+      "3585": "Nathanmar177",
+      "4251": "CHAZ",
+      "5004": "Cole",
+      "6162": "Doddzila",
+      "6844": "Daniel628"
     },
     "rules": {
       "leagueWin": 2,
@@ -67,7 +68,7 @@
   "leader": {
     "clubId": 2855,
     "clubName": "Trust The Process Kyiv: D",
-    "managerName": "SLDLRD",
+    "managerName": "SRMonkey🐒",
     "city": "Kyiv",
     "country": "UKRAINE",
     "colors": {
@@ -141,7 +142,7 @@
     {
       "clubId": 2855,
       "clubName": "Trust The Process Kyiv: D",
-      "managerName": "SLDLRD",
+      "managerName": "SRMonkey🐒",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
@@ -214,7 +215,7 @@
     {
       "clubId": 789,
       "clubName": "Trust The Process Garoua: A",
-      "managerName": "Calvin",
+      "managerName": "Calcy",
       "city": "Garoua",
       "country": "CAMEROON",
       "colors": {
@@ -287,7 +288,7 @@
     {
       "clubId": 3585,
       "clubName": "Trust The Process Germany: D",
-      "managerName": "The Dollar Club",
+      "managerName": "Nathanmar177",
       "city": "Bergisch Gladbach",
       "country": "GERMANY",
       "colors": {
@@ -360,7 +361,7 @@
     {
       "clubId": 2953,
       "clubName": "Trust The Process Italy: B",
-      "managerName": "Herndouzi",
+      "managerName": "GustovMillan",
       "city": "Vicenza",
       "country": "ITALY",
       "colors": {
@@ -433,7 +434,7 @@
     {
       "clubId": 6162,
       "clubName": "Trust The Process Hungary: A",
-      "managerName": "Gaffer Lewis",
+      "managerName": "Doddzila",
       "city": "Pécs",
       "country": "HUNGARY",
       "colors": {
@@ -506,7 +507,7 @@
     {
       "clubId": 4251,
       "clubName": "Trust The Process Indo: B",
-      "managerName": "RareRiverBadger",
+      "managerName": "CHAZ",
       "city": "Bandung",
       "country": "INDONESIA",
       "colors": {
@@ -579,7 +580,7 @@
     {
       "clubId": 155,
       "clubName": "Trust The Process Japan: A",
-      "managerName": "",
+      "managerName": "Cedrick",
       "city": "Fukuoka",
       "country": "JAPAN",
       "colors": {
@@ -652,7 +653,7 @@
     {
       "clubId": 1367,
       "clubName": "Trust The Process Algeria B",
-      "managerName": "Pilipinoopao",
+      "managerName": "Jeddy",
       "city": "Oran",
       "country": "ALGERIA",
       "colors": {
@@ -725,7 +726,7 @@
     {
       "clubId": 256,
       "clubName": "Trust The Process Kyiv: F",
-      "managerName": "mythsalvatore",
+      "managerName": "",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
@@ -798,7 +799,7 @@
     {
       "clubId": 1351,
       "clubName": "Trust The Process Kyiv: B",
-      "managerName": "Scoobersteveha",
+      "managerName": "BillyBremner",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
@@ -944,7 +945,7 @@
     {
       "clubId": 761,
       "clubName": "Trust The Process Garoua: B",
-      "managerName": "Hamez",
+      "managerName": "JPS",
       "city": "Garoua",
       "country": "CAMEROON",
       "colors": {
@@ -1017,7 +1018,7 @@
     {
       "clubId": 6844,
       "clubName": "Trust The Process Germany: F",
-      "managerName": "Andrew Q",
+      "managerName": "Daniel628",
       "city": "Düsseldorf",
       "country": "GERMANY",
       "colors": {
@@ -1090,7 +1091,7 @@
     {
       "clubId": 1776,
       "clubName": "Trust The Process Algeria C",
-      "managerName": "Sufcblades22",
+      "managerName": "GriffDog1103",
       "city": "Sétif",
       "country": "ALGERIA",
       "colors": {
@@ -1163,7 +1164,7 @@
     {
       "clubId": 1100,
       "clubName": "Trust The Process Budapest: A",
-      "managerName": "Pepteta",
+      "managerName": "ClarkyIsland",
       "city": "Budapest",
       "country": "HUNGARY",
       "colors": {
@@ -1236,7 +1237,7 @@
     {
       "clubId": 5004,
       "clubName": "Trust The Process Germany:B",
-      "managerName": "Jeddy",
+      "managerName": "Cole",
       "city": "Potsdam",
       "country": "GERMANY",
       "colors": {
@@ -1309,7 +1310,7 @@
     {
       "clubId": 838,
       "clubName": "Trust The Process Italy: A",
-      "managerName": "JPS",
+      "managerName": "pacards",
       "city": "Genoa",
       "country": "ITALY",
       "colors": {

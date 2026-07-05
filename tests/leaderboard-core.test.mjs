@@ -4,6 +4,7 @@ import { describe, it } from "node:test";
 import {
   buildClubRow,
   calculateCompetitionPoints,
+  extractManagerNameFromContracts,
   filterSeasonCompetitions,
   SEASON_ID,
   sortLeaderboardRows
@@ -89,6 +90,31 @@ describe("Trust The Process scoring", () => {
     });
 
     assert.equal(row.managerName, "Pilipinoopao");
+  });
+
+  it("extracts the current manager name from contract resources", () => {
+    const contractsPayload = {
+      items: [
+        {
+          manager: "0xold"
+        },
+        {
+          manager: "0x07f668f0a0ebc254"
+        }
+      ],
+      resources: {
+        users: {
+          "0xold": {
+            name: "Previous Manager"
+          },
+          "0x07f668f0a0ebc254": {
+            name: "Doddzila"
+          }
+        }
+      }
+    };
+
+    assert.equal(extractManagerNameFromContracts(contractsPayload), "Doddzila");
   });
 
   it("sorts by points, goal difference, goals for, then club name", () => {

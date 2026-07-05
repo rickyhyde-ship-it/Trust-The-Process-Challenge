@@ -34,4 +34,11 @@ describe("public leaderboard page", () => {
     assert.doesNotMatch(html, /Season 14/);
     assert.doesNotMatch(html, /Twenty club IDs/);
   });
+
+  it("fetches current-season manager names from the contracts API", () => {
+    const updateScript = readFileSync("scripts/update-leaderboard.mjs", "utf8");
+
+    assert.match(updateScript, /contracts\?type=MANAGER&period=currentSeason/);
+    assert.doesNotMatch(updateScript, /MANAGERS_BY_CLUB_ID/);
+  });
 });
