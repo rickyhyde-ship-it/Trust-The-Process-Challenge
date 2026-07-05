@@ -82,7 +82,7 @@ function renderOverview(data) {
   elements.metricPoints.textContent = formatNumber(data.totals?.points);
   elements.lastUpdated.textContent = `Last updated: ${updatedAt}`;
   elements.headerLastUpdatedLabel.textContent = `Last updated: ${updatedAt}`;
-  elements.feedSeason.textContent = data.meta?.seasonName || "Season 14";
+  elements.feedSeason.textContent = data.meta?.seasonName || "Season 15";
 }
 
 function renderFeed(data) {

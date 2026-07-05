@@ -1,4 +1,4 @@
-export const SEASON_ID = 24;
+export const SEASON_ID = 25;
 export const INCLUDED_TYPES = new Set(["LEAGUE", "CUP"]);
 
 function asNumber(value) {

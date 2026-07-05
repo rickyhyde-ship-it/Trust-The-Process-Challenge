@@ -1,32 +1,29 @@
 {
   "meta": {
-    "generatedAt": "2026-07-05T18:35:40.824Z",
-    "seasonId": 24,
-    "seasonName": "Season 14",
+    "generatedAt": "2026-07-05T18:57:51.206Z",
+    "seasonId": 25,
+    "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
-    "repository": "rickyhyde-ship-it/Trust-The-Process-Challenge",
-    "branch": "main",
+    "repository": null,
+    "branch": null,
     "clubIds": [
       1367,
       1776,
       1100,
       789,
       761,
+      5004,
       1627,
       3585,
       6844,
-      5004,
       6162,
       4251,
-      838,
       2953,
-      1351,
-      2855,
+      838,
+      155,
       256,
-      6640,
-      5753,
-      1611,
-      6813
+      1351,
+      2855
     ],
     "managers": {
       "256": "mythsalvatore",
@@ -36,7 +33,6 @@
       "1100": "Pepteta",
       "1351": "Scoobersteveha",
       "1367": "Pilipinoopao",
-      "1611": "SRMonkey🐒",
       "1627": "olavxela",
       "1776": "Sufcblades22",
       "2855": "SLDLRD",
@@ -44,10 +40,7 @@
       "3585": "The Dollar Club",
       "4251": "RareRiverBadger",
       "5004": "Jeddy",
-      "5753": "SearleOnTheBall",
       "6162": "Gaffer Lewis",
-      "6640": "BillyBremner",
-      "6813": "Hoodwink",
       "6844": "Andrew Q"
     },
     "rules": {
@@ -61,98 +54,163 @@
     }
   },
   "totals": {
-    "clubs": 20,
-    "played": 565,
-    "points": 489,
-    "goalsFor": 574,
-    "goalsAgainst": 836,
-    "leagueWins": 126,
-    "cupWins": 32,
-    "draws": 141,
-    "cupStarted": 20
+    "clubs": 17,
+    "played": 80,
+    "points": 72,
+    "goalsFor": 96,
+    "goalsAgainst": 115,
+    "leagueWins": 31,
+    "cupWins": 0,
+    "draws": 10,
+    "cupStarted": 0
   },
   "leader": {
-    "clubId": 789,
-    "clubName": "Trust The Process Garoua: A",
-    "managerName": "Calvin",
-    "city": "Garoua",
-    "country": "CAMEROON",
+    "clubId": 2855,
+    "clubName": "Trust The Process Kyiv: D",
+    "managerName": "SLDLRD",
+    "city": "Kyiv",
+    "country": "UKRAINE",
     "colors": {
-      "main": "#ce1126",
-      "secondary": "#fcdc00"
+      "main": "#1495d5",
+      "secondary": "#f4d915"
     },
-    "points": 35,
-    "leaguePoints": 24,
-    "cupPoints": 11,
-    "leagueWins": 9,
-    "cupWins": 3,
-    "draws": 8,
-    "losses": 9,
-    "played": 29,
-    "leaguePlayed": 22,
-    "cupPlayed": 7,
-    "goalsFor": 50,
-    "goalsAgainst": 37,
-    "goalDifference": 13,
+    "points": 8,
+    "leaguePoints": 8,
+    "cupPoints": 0,
+    "leagueWins": 4,
+    "cupWins": 0,
+    "draws": 0,
+    "losses": 1,
+    "played": 5,
+    "leaguePlayed": 5,
+    "cupPlayed": 0,
+    "goalsFor": 14,
+    "goalsAgainst": 6,
+    "goalDifference": 8,
     "league": {
-      "id": 14844,
-      "name": "Flint – League 44",
-      "status": "ENDED",
+      "id": 17221,
+      "name": "Flint – League 19",
+      "status": "LIVE",
       "started": true,
-      "wins": 9,
-      "draws": 6,
-      "losses": 7,
-      "goalsFor": 37,
-      "goalsAgainst": 26,
-      "ranking": "6th"
+      "wins": 4,
+      "draws": 0,
+      "losses": 1,
+      "goalsFor": 14,
+      "goalsAgainst": 6,
+      "ranking": "3rd"
     },
     "cup": {
-      "id": 15237,
-      "name": "Aspirants Cup – Tier 169",
-      "status": "ENDED",
-      "started": true,
-      "wins": 3,
-      "draws": 2,
-      "losses": 2,
-      "goalsFor": 13,
-      "goalsAgainst": 11,
-      "ranking": "Round of 16"
+      "id": 17549,
+      "name": "Aspirants Cup – Tier 165",
+      "status": "LIVE",
+      "started": false,
+      "wins": 0,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 0,
+      "goalsAgainst": 0,
+      "ranking": null
     },
     "competitions": [
       {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
         "type": "CUP",
-        "stats": {
-          "ranking": "Round of 16",
-          "wins": 3,
-          "draws": 2,
-          "losses": 2,
-          "goals": 13,
-          "goalsAgainst": 11,
-          "points": 11
-        }
+        "stats": null
       },
       {
-        "id": 14844,
-        "name": "Flint – League 44",
-        "status": "ENDED",
+        "id": 17221,
+        "name": "Flint – League 19",
+        "status": "LIVE",
         "type": "LEAGUE",
         "stats": {
-          "ranking": "6th",
-          "wins": 9,
-          "draws": 6,
-          "losses": 7,
-          "goals": 37,
-          "goalsAgainst": 26,
-          "points": 33
+          "ranking": "3rd",
+          "wins": 4,
+          "draws": 0,
+          "losses": 1,
+          "goals": 14,
+          "goalsAgainst": 6,
+          "points": 12
         }
       }
     ],
     "rank": 1
   },
   "standings": [
+    {
+      "clubId": 2855,
+      "clubName": "Trust The Process Kyiv: D",
+      "managerName": "SLDLRD",
+      "city": "Kyiv",
+      "country": "UKRAINE",
+      "colors": {
+        "main": "#1495d5",
+        "secondary": "#f4d915"
+      },
+      "points": 8,
+      "leaguePoints": 8,
+      "cupPoints": 0,
+      "leagueWins": 4,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 1,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 14,
+      "goalsAgainst": 6,
+      "goalDifference": 8,
+      "league": {
+        "id": 17221,
+        "name": "Flint – League 19",
+        "status": "LIVE",
+        "started": true,
+        "wins": 4,
+        "draws": 0,
+        "losses": 1,
+        "goalsFor": 14,
+        "goalsAgainst": 6,
+        "ranking": "3rd"
+      },
+      "cup": {
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17221,
+          "name": "Flint – League 19",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "3rd",
+            "wins": 4,
+            "draws": 0,
+            "losses": 1,
+            "goals": 14,
+            "goalsAgainst": 6,
+            "points": 12
+          }
+        }
+      ],
+      "rank": 1
+    },
     {
       "clubId": 789,
       "clubName": "Trust The Process Garoua: A",
@@ -163,153 +221,64 @@
         "main": "#ce1126",
         "secondary": "#fcdc00"
       },
-      "points": 35,
-      "leaguePoints": 24,
-      "cupPoints": 11,
-      "leagueWins": 9,
-      "cupWins": 3,
-      "draws": 8,
-      "losses": 9,
-      "played": 29,
-      "leaguePlayed": 22,
-      "cupPlayed": 7,
-      "goalsFor": 50,
-      "goalsAgainst": 37,
-      "goalDifference": 13,
+      "points": 7,
+      "leaguePoints": 7,
+      "cupPoints": 0,
+      "leagueWins": 3,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 0,
+      "played": 4,
+      "leaguePlayed": 4,
+      "cupPlayed": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 0,
+      "goalDifference": 9,
       "league": {
-        "id": 14844,
+        "id": 17246,
         "name": "Flint – League 44",
-        "status": "ENDED",
-        "started": true,
-        "wins": 9,
-        "draws": 6,
-        "losses": 7,
-        "goalsFor": 37,
-        "goalsAgainst": 26,
-        "ranking": "6th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
+        "status": "LIVE",
         "started": true,
         "wins": 3,
-        "draws": 2,
-        "losses": 2,
-        "goalsFor": 13,
-        "goalsAgainst": 11,
-        "ranking": "Round of 16"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 3,
-            "draws": 2,
-            "losses": 2,
-            "goals": 13,
-            "goalsAgainst": 11,
-            "points": 11
-          }
-        },
-        {
-          "id": 14844,
-          "name": "Flint – League 44",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "6th",
-            "wins": 9,
-            "draws": 6,
-            "losses": 7,
-            "goals": 37,
-            "goalsAgainst": 26,
-            "points": 33
-          }
-        }
-      ],
-      "rank": 1
-    },
-    {
-      "clubId": 1611,
-      "clubName": "Trust The Process Nigeria A",
-      "managerName": "SRMonkey🐒",
-      "city": "Kano",
-      "country": "NIGERIA",
-      "colors": {
-        "main": "#158012",
-        "secondary": "#f1ebeb"
-      },
-      "points": 33,
-      "leaguePoints": 26,
-      "cupPoints": 7,
-      "leagueWins": 10,
-      "cupWins": 2,
-      "draws": 7,
-      "losses": 9,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 39,
-      "goalsAgainst": 36,
-      "goalDifference": 3,
-      "league": {
-        "id": 14814,
-        "name": "Flint – League 14",
-        "status": "ENDED",
-        "started": true,
-        "wins": 10,
-        "draws": 6,
-        "losses": 6,
-        "goalsFor": 33,
-        "goalsAgainst": 30,
-        "ranking": "6th"
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 9,
+        "goalsAgainst": 0,
+        "ranking": "3rd"
       },
       "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "goalsFor": 6,
-        "goalsAgainst": 6,
-        "ranking": "Group Stage"
+        "id": 17548,
+        "name": "Aspirants Cup – Tier 164",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
       },
       "competitions": [
         {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
+          "id": 17548,
+          "name": "Aspirants Cup – Tier 164",
+          "status": "LIVE",
           "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 2,
-            "draws": 1,
-            "losses": 3,
-            "goals": 6,
-            "goalsAgainst": 6,
-            "points": 7
-          }
+          "stats": null
         },
         {
-          "id": 14814,
-          "name": "Flint – League 14",
-          "status": "ENDED",
+          "id": 17246,
+          "name": "Flint – League 44",
+          "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
-            "wins": 10,
-            "draws": 6,
-            "losses": 6,
-            "goals": 33,
-            "goalsAgainst": 30,
-            "points": 36
+            "ranking": "3rd",
+            "wins": 3,
+            "draws": 1,
+            "losses": 0,
+            "goals": 9,
+            "goalsAgainst": 0,
+            "points": 10
           }
         }
       ],
@@ -325,238 +294,68 @@
         "main": "#000000",
         "secondary": "#eb144c"
       },
-      "points": 31,
-      "leaguePoints": 22,
-      "cupPoints": 9,
-      "leagueWins": 9,
-      "cupWins": 3,
-      "draws": 4,
-      "losses": 13,
-      "played": 29,
-      "leaguePlayed": 22,
-      "cupPlayed": 7,
-      "goalsFor": 40,
-      "goalsAgainst": 42,
-      "goalDifference": -2,
+      "points": 7,
+      "leaguePoints": 7,
+      "cupPoints": 0,
+      "leagueWins": 3,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 1,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 9,
+      "goalsAgainst": 6,
+      "goalDifference": 3,
       "league": {
-        "id": 14805,
+        "id": 17207,
         "name": "Flint – League 5",
-        "status": "ENDED",
-        "started": true,
-        "wins": 9,
-        "draws": 4,
-        "losses": 9,
-        "goalsFor": 32,
-        "goalsAgainst": 29,
-        "ranking": "6th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
+        "status": "LIVE",
         "started": true,
         "wins": 3,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 9,
+        "goalsAgainst": 6,
+        "ranking": "2nd"
+      },
+      "cup": {
+        "id": 17548,
+        "name": "Aspirants Cup – Tier 164",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
         "draws": 0,
-        "losses": 4,
-        "goalsFor": 8,
-        "goalsAgainst": 13,
-        "ranking": "Round of 16"
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
       },
       "competitions": [
         {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
+          "id": 17548,
+          "name": "Aspirants Cup – Tier 164",
+          "status": "LIVE",
           "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 3,
-            "draws": 0,
-            "losses": 4,
-            "goals": 8,
-            "goalsAgainst": 13,
-            "points": 9
-          }
+          "stats": null
         },
         {
-          "id": 14805,
+          "id": 17207,
           "name": "Flint – League 5",
-          "status": "ENDED",
+          "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
-            "wins": 9,
-            "draws": 4,
-            "losses": 9,
-            "goals": 32,
-            "goalsAgainst": 29,
-            "points": 31
+            "ranking": "2nd",
+            "wins": 3,
+            "draws": 1,
+            "losses": 1,
+            "goals": 9,
+            "goalsAgainst": 6,
+            "points": 10
           }
         }
       ],
       "rank": 3
-    },
-    {
-      "clubId": 2855,
-      "clubName": "Trust The Process Kyiv: D",
-      "managerName": "SLDLRD",
-      "city": "Kyiv",
-      "country": "UKRAINE",
-      "colors": {
-        "main": "#1495d5",
-        "secondary": "#f4d915"
-      },
-      "points": 30,
-      "leaguePoints": 21,
-      "cupPoints": 9,
-      "leagueWins": 10,
-      "cupWins": 2,
-      "draws": 4,
-      "losses": 12,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 34,
-      "goalsAgainst": 32,
-      "goalDifference": 2,
-      "league": {
-        "id": 14819,
-        "name": "Flint – League 19",
-        "status": "ENDED",
-        "started": true,
-        "wins": 10,
-        "draws": 1,
-        "losses": 11,
-        "goalsFor": 26,
-        "goalsAgainst": 26,
-        "ranking": "5th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 3,
-        "losses": 1,
-        "goalsFor": 8,
-        "goalsAgainst": 6,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 2,
-            "draws": 3,
-            "losses": 1,
-            "goals": 8,
-            "goalsAgainst": 6,
-            "points": 9
-          }
-        },
-        {
-          "id": 14819,
-          "name": "Flint – League 19",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "5th",
-            "wins": 10,
-            "draws": 1,
-            "losses": 11,
-            "goals": 26,
-            "goalsAgainst": 26,
-            "points": 31
-          }
-        }
-      ],
-      "rank": 4
-    },
-    {
-      "clubId": 5004,
-      "clubName": "Trust The Process Germany:B",
-      "managerName": "Jeddy",
-      "city": "Potsdam",
-      "country": "GERMANY",
-      "colors": {
-        "main": "#fcdc00",
-        "secondary": "#000000"
-      },
-      "points": 30,
-      "leaguePoints": 24,
-      "cupPoints": 6,
-      "leagueWins": 10,
-      "cupWins": 1,
-      "draws": 7,
-      "losses": 10,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 35,
-      "goalsAgainst": 34,
-      "goalDifference": 1,
-      "league": {
-        "id": 14824,
-        "name": "Flint – League 24",
-        "status": "ENDED",
-        "started": true,
-        "wins": 10,
-        "draws": 4,
-        "losses": 8,
-        "goalsFor": 32,
-        "goalsAgainst": 30,
-        "ranking": "7th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 3,
-        "goalsAgainst": 4,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 3,
-            "losses": 2,
-            "goals": 3,
-            "goalsAgainst": 4,
-            "points": 6
-          }
-        },
-        {
-          "id": 14824,
-          "name": "Flint – League 24",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "7th",
-            "wins": 10,
-            "draws": 4,
-            "losses": 8,
-            "goals": 32,
-            "goalsAgainst": 30,
-            "points": 34
-          }
-        }
-      ],
-      "rank": 5
     },
     {
       "clubId": 2953,
@@ -568,1048 +367,68 @@
         "main": "#24714a",
         "secondary": "#bd123f"
       },
-      "points": 27,
-      "leaguePoints": 21,
-      "cupPoints": 6,
-      "leagueWins": 8,
-      "cupWins": 2,
-      "draws": 5,
-      "losses": 13,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 37,
-      "goalsAgainst": 52,
-      "goalDifference": -15,
+      "points": 6,
+      "leaguePoints": 6,
+      "cupPoints": 0,
+      "leagueWins": 3,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 2,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 13,
+      "goalsAgainst": 10,
+      "goalDifference": 3,
       "league": {
-        "id": 14822,
+        "id": 17224,
         "name": "Flint – League 22",
-        "status": "ENDED",
+        "status": "LIVE",
         "started": true,
-        "wins": 8,
-        "draws": 5,
-        "losses": 9,
-        "goalsFor": 30,
-        "goalsAgainst": 36,
-        "ranking": "7th"
+        "wins": 3,
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 13,
+        "goalsAgainst": 10,
+        "ranking": "3rd"
       },
       "cup": {
-        "id": 15236,
-        "name": "Aspirants Cup – Tier 168",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
         "draws": 0,
-        "losses": 4,
-        "goalsFor": 7,
-        "goalsAgainst": 16,
-        "ranking": "Group Stage"
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
       },
       "competitions": [
         {
-          "id": 15236,
-          "name": "Aspirants Cup – Tier 168",
-          "status": "ENDED",
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
           "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 2,
-            "draws": 0,
-            "losses": 4,
-            "goals": 7,
-            "goalsAgainst": 16,
-            "points": 6
-          }
+          "stats": null
         },
         {
-          "id": 14822,
+          "id": 17224,
           "name": "Flint – League 22",
-          "status": "ENDED",
+          "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "7th",
-            "wins": 8,
-            "draws": 5,
-            "losses": 9,
-            "goals": 30,
-            "goalsAgainst": 36,
-            "points": 29
-          }
-        }
-      ],
-      "rank": 6
-    },
-    {
-      "clubId": 838,
-      "clubName": "Trust The Process Italy: A",
-      "managerName": "JPS",
-      "city": "Genoa",
-      "country": "ITALY",
-      "colors": {
-        "main": "#24714a",
-        "secondary": "#bd123f"
-      },
-      "points": 26,
-      "leaguePoints": 19,
-      "cupPoints": 7,
-      "leagueWins": 8,
-      "cupWins": 1,
-      "draws": 7,
-      "losses": 12,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 25,
-      "goalsAgainst": 38,
-      "goalDifference": -13,
-      "league": {
-        "id": 14811,
-        "name": "Flint – League 11",
-        "status": "ENDED",
-        "started": true,
-        "wins": 8,
-        "draws": 3,
-        "losses": 11,
-        "goalsFor": 22,
-        "goalsAgainst": 35,
-        "ranking": "8th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
-        "started": true,
-        "wins": 1,
-        "draws": 4,
-        "losses": 1,
-        "goalsFor": 3,
-        "goalsAgainst": 3,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 4,
-            "losses": 1,
-            "goals": 3,
-            "goalsAgainst": 3,
-            "points": 7
-          }
-        },
-        {
-          "id": 14811,
-          "name": "Flint – League 11",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "8th",
-            "wins": 8,
-            "draws": 3,
-            "losses": 11,
-            "goals": 22,
-            "goalsAgainst": 35,
-            "points": 27
-          }
-        }
-      ],
-      "rank": 7
-    },
-    {
-      "clubId": 1351,
-      "clubName": "Trust The Process Kyiv: B",
-      "managerName": "Scoobersteveha",
-      "city": "Kyiv",
-      "country": "UKRAINE",
-      "colors": {
-        "main": "#1495d5",
-        "secondary": "#f4d915"
-      },
-      "points": 25,
-      "leaguePoints": 16,
-      "cupPoints": 9,
-      "leagueWins": 6,
-      "cupWins": 2,
-      "draws": 7,
-      "losses": 14,
-      "played": 29,
-      "leaguePlayed": 22,
-      "cupPlayed": 7,
-      "goalsFor": 33,
-      "goalsAgainst": 44,
-      "goalDifference": -11,
-      "league": {
-        "id": 14812,
-        "name": "Flint – League 12",
-        "status": "ENDED",
-        "started": true,
-        "wins": 6,
-        "draws": 4,
-        "losses": 12,
-        "goalsFor": 28,
-        "goalsAgainst": 39,
-        "ranking": "9th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 5,
-        "goalsAgainst": 5,
-        "ranking": "Round of 16"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 2,
-            "draws": 3,
-            "losses": 2,
-            "goals": 5,
-            "goalsAgainst": 5,
-            "points": 9
-          }
-        },
-        {
-          "id": 14812,
-          "name": "Flint – League 12",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "9th",
-            "wins": 6,
-            "draws": 4,
-            "losses": 12,
-            "goals": 28,
-            "goalsAgainst": 39,
-            "points": 22
-          }
-        }
-      ],
-      "rank": 8
-    },
-    {
-      "clubId": 1776,
-      "clubName": "Trust The Process Algeria C",
-      "managerName": "Sufcblades22",
-      "city": "Sétif",
-      "country": "ALGERIA",
-      "colors": {
-        "main": "#337933",
-        "secondary": "#f7f5f3"
-      },
-      "points": 25,
-      "leaguePoints": 19,
-      "cupPoints": 6,
-      "leagueWins": 7,
-      "cupWins": 1,
-      "draws": 8,
-      "losses": 12,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 35,
-      "goalsAgainst": 49,
-      "goalDifference": -14,
-      "league": {
-        "id": 14868,
-        "name": "Flint – League 68",
-        "status": "ENDED",
-        "started": true,
-        "wins": 7,
-        "draws": 5,
-        "losses": 10,
-        "goalsFor": 26,
-        "goalsAgainst": 40,
-        "ranking": "9th"
-      },
-      "cup": {
-        "id": 15235,
-        "name": "Aspirants Cup – Tier 167",
-        "status": "ENDED",
-        "started": true,
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 9,
-        "goalsAgainst": 9,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15235,
-          "name": "Aspirants Cup – Tier 167",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 3,
-            "losses": 2,
-            "goals": 9,
-            "goalsAgainst": 9,
-            "points": 6
-          }
-        },
-        {
-          "id": 14868,
-          "name": "Flint – League 68",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "9th",
-            "wins": 7,
-            "draws": 5,
-            "losses": 10,
-            "goals": 26,
-            "goalsAgainst": 40,
-            "points": 26
-          }
-        }
-      ],
-      "rank": 9
-    },
-    {
-      "clubId": 1627,
-      "clubName": "Trust The Process Germany: C",
-      "managerName": "olavxela",
-      "city": "Mönchengladbach",
-      "country": "GERMANY",
-      "colors": {
-        "main": "#000000",
-        "secondary": "#fcb900"
-      },
-      "points": 25,
-      "leaguePoints": 16,
-      "cupPoints": 9,
-      "leagueWins": 6,
-      "cupWins": 3,
-      "draws": 4,
-      "losses": 15,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 22,
-      "goalsAgainst": 36,
-      "goalDifference": -14,
-      "league": {
-        "id": 14802,
-        "name": "Flint – League 2",
-        "status": "ENDED",
-        "started": true,
-        "wins": 6,
-        "draws": 4,
-        "losses": 12,
-        "goalsFor": 15,
-        "goalsAgainst": 30,
-        "ranking": "9th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 3,
-        "draws": 0,
-        "losses": 3,
-        "goalsFor": 7,
-        "goalsAgainst": 6,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
+            "ranking": "3rd",
             "wins": 3,
             "draws": 0,
-            "losses": 3,
-            "goals": 7,
-            "goalsAgainst": 6,
+            "losses": 2,
+            "goals": 13,
+            "goalsAgainst": 10,
             "points": 9
           }
-        },
-        {
-          "id": 14802,
-          "name": "Flint – League 2",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "9th",
-            "wins": 6,
-            "draws": 4,
-            "losses": 12,
-            "goals": 15,
-            "goalsAgainst": 30,
-            "points": 22
-          }
         }
       ],
-      "rank": 10
-    },
-    {
-      "clubId": 6813,
-      "clubName": "Trust The Process Nigeria: C",
-      "managerName": "Hoodwink",
-      "city": "Ibadan",
-      "country": "NIGERIA",
-      "colors": {
-        "main": "#036f03",
-        "secondary": "#ffffff"
-      },
-      "points": 24,
-      "leaguePoints": 18,
-      "cupPoints": 6,
-      "leagueWins": 6,
-      "cupWins": 1,
-      "draws": 9,
-      "losses": 12,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 27,
-      "goalsAgainst": 41,
-      "goalDifference": -14,
-      "league": {
-        "id": 14839,
-        "name": "Flint – League 39",
-        "status": "ENDED",
-        "started": true,
-        "wins": 6,
-        "draws": 6,
-        "losses": 10,
-        "goalsFor": 22,
-        "goalsAgainst": 34,
-        "ranking": "9th"
-      },
-      "cup": {
-        "id": 15236,
-        "name": "Aspirants Cup – Tier 168",
-        "status": "ENDED",
-        "started": true,
-        "wins": 1,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 5,
-        "goalsAgainst": 7,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15236,
-          "name": "Aspirants Cup – Tier 168",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 3,
-            "losses": 2,
-            "goals": 5,
-            "goalsAgainst": 7,
-            "points": 6
-          }
-        },
-        {
-          "id": 14839,
-          "name": "Flint – League 39",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "9th",
-            "wins": 6,
-            "draws": 6,
-            "losses": 10,
-            "goals": 22,
-            "goalsAgainst": 34,
-            "points": 24
-          }
-        }
-      ],
-      "rank": 11
-    },
-    {
-      "clubId": 1100,
-      "clubName": "Trust The Process Budapest: A",
-      "managerName": "Pepteta",
-      "city": "Budapest",
-      "country": "HUNGARY",
-      "colors": {
-        "main": "#b9103c",
-        "secondary": "#226945"
-      },
-      "points": 23,
-      "leaguePoints": 16,
-      "cupPoints": 7,
-      "leagueWins": 5,
-      "cupWins": 2,
-      "draws": 7,
-      "losses": 14,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 30,
-      "goalsAgainst": 43,
-      "goalDifference": -13,
-      "league": {
-        "id": 14801,
-        "name": "Flint – League 1",
-        "status": "ENDED",
-        "started": true,
-        "wins": 5,
-        "draws": 6,
-        "losses": 11,
-        "goalsFor": 25,
-        "goalsAgainst": 36,
-        "ranking": "8th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "goalsFor": 5,
-        "goalsAgainst": 7,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 2,
-            "draws": 1,
-            "losses": 3,
-            "goals": 5,
-            "goalsAgainst": 7,
-            "points": 7
-          }
-        },
-        {
-          "id": 14801,
-          "name": "Flint – League 1",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "8th",
-            "wins": 5,
-            "draws": 6,
-            "losses": 11,
-            "goals": 25,
-            "goalsAgainst": 36,
-            "points": 21
-          }
-        }
-      ],
-      "rank": 12
-    },
-    {
-      "clubId": 256,
-      "clubName": "Trust The Process Kyiv: F",
-      "managerName": "mythsalvatore",
-      "city": "Kyiv",
-      "country": "UKRAINE",
-      "colors": {
-        "main": "#fcdc00",
-        "secondary": "#0693e3"
-      },
-      "points": 22,
-      "leaguePoints": 18,
-      "cupPoints": 4,
-      "leagueWins": 4,
-      "cupWins": 0,
-      "draws": 14,
-      "losses": 10,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 24,
-      "goalsAgainst": 33,
-      "goalDifference": -9,
-      "league": {
-        "id": 14808,
-        "name": "Flint – League 8",
-        "status": "ENDED",
-        "started": true,
-        "wins": 4,
-        "draws": 10,
-        "losses": 8,
-        "goalsFor": 23,
-        "goalsAgainst": 27,
-        "ranking": "8th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 0,
-        "draws": 4,
-        "losses": 2,
-        "goalsFor": 1,
-        "goalsAgainst": 6,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 0,
-            "draws": 4,
-            "losses": 2,
-            "goals": 1,
-            "goalsAgainst": 6,
-            "points": 4
-          }
-        },
-        {
-          "id": 14808,
-          "name": "Flint – League 8",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "8th",
-            "wins": 4,
-            "draws": 10,
-            "losses": 8,
-            "goals": 23,
-            "goalsAgainst": 27,
-            "points": 22
-          }
-        }
-      ],
-      "rank": 13
-    },
-    {
-      "clubId": 6844,
-      "clubName": "Trust The Process Germany: F",
-      "managerName": "Andrew Q",
-      "city": "Düsseldorf",
-      "country": "GERMANY",
-      "colors": {
-        "main": "#FF0000",
-        "secondary": "#FFD700"
-      },
-      "points": 22,
-      "leaguePoints": 13,
-      "cupPoints": 9,
-      "leagueWins": 4,
-      "cupWins": 2,
-      "draws": 8,
-      "losses": 15,
-      "played": 29,
-      "leaguePlayed": 22,
-      "cupPlayed": 7,
-      "goalsFor": 27,
-      "goalsAgainst": 46,
-      "goalDifference": -19,
-      "league": {
-        "id": 14807,
-        "name": "Flint – League 7",
-        "status": "ENDED",
-        "started": true,
-        "wins": 4,
-        "draws": 5,
-        "losses": 13,
-        "goalsFor": 20,
-        "goalsAgainst": 39,
-        "ranking": "11th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 3,
-        "losses": 2,
-        "goalsFor": 7,
-        "goalsAgainst": 7,
-        "ranking": "Round of 16"
-      },
-      "competitions": [
-        {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 2,
-            "draws": 3,
-            "losses": 2,
-            "goals": 7,
-            "goalsAgainst": 7,
-            "points": 9
-          }
-        },
-        {
-          "id": 14807,
-          "name": "Flint – League 7",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "11th",
-            "wins": 4,
-            "draws": 5,
-            "losses": 13,
-            "goals": 20,
-            "goalsAgainst": 39,
-            "points": 17
-          }
-        }
-      ],
-      "rank": 14
-    },
-    {
-      "clubId": 6640,
-      "clubName": "Trust The Process Lithuania A",
-      "managerName": "BillyBremner",
-      "city": "Birštonas",
-      "country": "LITHUANIA",
-      "colors": {
-        "main": "#ffd700",
-        "secondary": "#ff0000"
-      },
-      "points": 21,
-      "leaguePoints": 16,
-      "cupPoints": 5,
-      "leagueWins": 5,
-      "cupWins": 1,
-      "draws": 8,
-      "losses": 14,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 22,
-      "goalsAgainst": 43,
-      "goalDifference": -21,
-      "league": {
-        "id": 14829,
-        "name": "Flint – League 29",
-        "status": "ENDED",
-        "started": true,
-        "wins": 5,
-        "draws": 6,
-        "losses": 11,
-        "goalsFor": 18,
-        "goalsAgainst": 36,
-        "ranking": "9th"
-      },
-      "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 1,
-        "draws": 2,
-        "losses": 3,
-        "goalsFor": 4,
-        "goalsAgainst": 7,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 2,
-            "losses": 3,
-            "goals": 4,
-            "goalsAgainst": 7,
-            "points": 5
-          }
-        },
-        {
-          "id": 14829,
-          "name": "Flint – League 29",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "9th",
-            "wins": 5,
-            "draws": 6,
-            "losses": 11,
-            "goals": 18,
-            "goalsAgainst": 36,
-            "points": 21
-          }
-        }
-      ],
-      "rank": 15
-    },
-    {
-      "clubId": 5753,
-      "clubName": "Trust The Process Morocco A",
-      "managerName": "SearleOnTheBall",
-      "city": "Kenitra",
-      "country": "MOROCCO",
-      "colors": {
-        "main": "#ff0000",
-        "secondary": "#ffd700"
-      },
-      "points": 19,
-      "leaguePoints": 17,
-      "cupPoints": 2,
-      "leagueWins": 6,
-      "cupWins": 0,
-      "draws": 7,
-      "losses": 15,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 21,
-      "goalsAgainst": 35,
-      "goalDifference": -14,
-      "league": {
-        "id": 14828,
-        "name": "Flint – League 28",
-        "status": "ENDED",
-        "started": true,
-        "wins": 6,
-        "draws": 5,
-        "losses": 11,
-        "goalsFor": 19,
-        "goalsAgainst": 28,
-        "ranking": "7th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
-        "started": true,
-        "wins": 0,
-        "draws": 2,
-        "losses": 4,
-        "goalsFor": 2,
-        "goalsAgainst": 7,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 0,
-            "draws": 2,
-            "losses": 4,
-            "goals": 2,
-            "goalsAgainst": 7,
-            "points": 2
-          }
-        },
-        {
-          "id": 14828,
-          "name": "Flint – League 28",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "7th",
-            "wins": 6,
-            "draws": 5,
-            "losses": 11,
-            "goals": 19,
-            "goalsAgainst": 28,
-            "points": 23
-          }
-        }
-      ],
-      "rank": 16
-    },
-    {
-      "clubId": 4251,
-      "clubName": "Trust The Process Indo: B",
-      "managerName": "RareRiverBadger",
-      "city": "Bandung",
-      "country": "INDONESIA",
-      "colors": {
-        "main": "#eb144c",
-        "secondary": "#ffffff"
-      },
-      "points": 19,
-      "leaguePoints": 15,
-      "cupPoints": 4,
-      "leagueWins": 3,
-      "cupWins": 1,
-      "draws": 10,
-      "losses": 14,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 17,
-      "goalsAgainst": 38,
-      "goalDifference": -21,
-      "league": {
-        "id": 14823,
-        "name": "Flint – League 23",
-        "status": "ENDED",
-        "started": true,
-        "wins": 3,
-        "draws": 9,
-        "losses": 10,
-        "goalsFor": 11,
-        "goalsAgainst": 27,
-        "ranking": "10th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
-        "started": true,
-        "wins": 1,
-        "draws": 1,
-        "losses": 4,
-        "goalsFor": 6,
-        "goalsAgainst": 11,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 1,
-            "losses": 4,
-            "goals": 6,
-            "goalsAgainst": 11,
-            "points": 4
-          }
-        },
-        {
-          "id": 14823,
-          "name": "Flint – League 23",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "10th",
-            "wins": 3,
-            "draws": 9,
-            "losses": 10,
-            "goals": 11,
-            "goalsAgainst": 27,
-            "points": 18
-          }
-        }
-      ],
-      "rank": 17
-    },
-    {
-      "clubId": 1367,
-      "clubName": "Trust The Process Algeria B",
-      "managerName": "Pilipinoopao",
-      "city": "Oran",
-      "country": "ALGERIA",
-      "colors": {
-        "main": "#194d33",
-        "secondary": "#f3f2f2"
-      },
-      "points": 19,
-      "leaguePoints": 12,
-      "cupPoints": 7,
-      "leagueWins": 3,
-      "cupWins": 2,
-      "draws": 7,
-      "losses": 16,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 21,
-      "goalsAgainst": 58,
-      "goalDifference": -37,
-      "league": {
-        "id": 14813,
-        "name": "Flint – League 13",
-        "status": "ENDED",
-        "started": true,
-        "wins": 3,
-        "draws": 6,
-        "losses": 13,
-        "goalsFor": 14,
-        "goalsAgainst": 47,
-        "ranking": "10th"
-      },
-      "cup": {
-        "id": 15236,
-        "name": "Aspirants Cup – Tier 168",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 1,
-        "losses": 3,
-        "goalsFor": 7,
-        "goalsAgainst": 11,
-        "ranking": "Group Stage"
-      },
-      "competitions": [
-        {
-          "id": 15236,
-          "name": "Aspirants Cup – Tier 168",
-          "status": "ENDED",
-          "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 2,
-            "draws": 1,
-            "losses": 3,
-            "goals": 7,
-            "goalsAgainst": 11,
-            "points": 7
-          }
-        },
-        {
-          "id": 14813,
-          "name": "Flint – League 13",
-          "status": "ENDED",
-          "type": "LEAGUE",
-          "stats": {
-            "ranking": "10th",
-            "wins": 3,
-            "draws": 6,
-            "losses": 13,
-            "goals": 14,
-            "goalsAgainst": 47,
-            "points": 15
-          }
-        }
-      ],
-      "rank": 18
+      "rank": 4
     },
     {
       "clubId": 6162,
@@ -1621,76 +440,506 @@
         "main": "#00FF00",
         "secondary": "#e9ecef"
       },
-      "points": 18,
-      "leaguePoints": 11,
-      "cupPoints": 7,
+      "points": 6,
+      "leaguePoints": 6,
+      "cupPoints": 0,
       "leagueWins": 3,
-      "cupWins": 2,
-      "draws": 6,
-      "losses": 18,
-      "played": 29,
-      "leaguePlayed": 22,
-      "cupPlayed": 7,
-      "goalsFor": 18,
-      "goalsAgainst": 52,
-      "goalDifference": -34,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 2,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 4,
+      "goalDifference": 2,
       "league": {
-        "id": 14892,
+        "id": 17294,
         "name": "Flint – League 92",
-        "status": "ENDED",
+        "status": "LIVE",
         "started": true,
         "wins": 3,
-        "draws": 5,
-        "losses": 14,
-        "goalsFor": 11,
-        "goalsAgainst": 44,
-        "ranking": "10th"
+        "draws": 0,
+        "losses": 2,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "ranking": "5th"
       },
       "cup": {
-        "id": 15237,
-        "name": "Aspirants Cup – Tier 169",
-        "status": "ENDED",
-        "started": true,
-        "wins": 2,
-        "draws": 1,
-        "losses": 4,
-        "goalsFor": 7,
-        "goalsAgainst": 8,
-        "ranking": "Round of 16"
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
       },
       "competitions": [
         {
-          "id": 15237,
-          "name": "Aspirants Cup – Tier 169",
-          "status": "ENDED",
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
           "type": "CUP",
-          "stats": {
-            "ranking": "Round of 16",
-            "wins": 2,
-            "draws": 1,
-            "losses": 4,
-            "goals": 7,
-            "goalsAgainst": 8,
-            "points": 7
-          }
+          "stats": null
         },
         {
-          "id": 14892,
+          "id": 17294,
           "name": "Flint – League 92",
-          "status": "ENDED",
+          "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "10th",
+            "ranking": "5th",
             "wins": 3,
-            "draws": 5,
-            "losses": 14,
-            "goals": 11,
-            "goalsAgainst": 44,
-            "points": 14
+            "draws": 0,
+            "losses": 2,
+            "goals": 6,
+            "goalsAgainst": 4,
+            "points": 9
           }
         }
       ],
-      "rank": 19
+      "rank": 5
+    },
+    {
+      "clubId": 4251,
+      "clubName": "Trust The Process Indo: B",
+      "managerName": "RareRiverBadger",
+      "city": "Bandung",
+      "country": "INDONESIA",
+      "colors": {
+        "main": "#eb144c",
+        "secondary": "#ffffff"
+      },
+      "points": 6,
+      "leaguePoints": 6,
+      "cupPoints": 0,
+      "leagueWins": 2,
+      "cupWins": 0,
+      "draws": 2,
+      "losses": 1,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 8,
+      "goalsAgainst": 7,
+      "goalDifference": 1,
+      "league": {
+        "id": 17225,
+        "name": "Flint – League 23",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 8,
+        "goalsAgainst": 7,
+        "ranking": "5th"
+      },
+      "cup": {
+        "id": 17548,
+        "name": "Aspirants Cup – Tier 164",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17548,
+          "name": "Aspirants Cup – Tier 164",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17225,
+          "name": "Flint – League 23",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "5th",
+            "wins": 2,
+            "draws": 2,
+            "losses": 1,
+            "goals": 8,
+            "goalsAgainst": 7,
+            "points": 8
+          }
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "clubId": 155,
+      "clubName": "Trust The Process Japan: A",
+      "managerName": "",
+      "city": "Fukuoka",
+      "country": "JAPAN",
+      "colors": {
+        "main": "#eb144c",
+        "secondary": "#ffffff"
+      },
+      "points": 5,
+      "leaguePoints": 5,
+      "cupPoints": 0,
+      "leagueWins": 2,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 1,
+      "played": 4,
+      "leaguePlayed": 4,
+      "cupPlayed": 0,
+      "goalsFor": 6,
+      "goalsAgainst": 4,
+      "goalDifference": 2,
+      "league": {
+        "id": 17281,
+        "name": "Flint – League 79",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goalsFor": 6,
+        "goalsAgainst": 4,
+        "ranking": "6th"
+      },
+      "cup": {
+        "id": 17548,
+        "name": "Aspirants Cup – Tier 164",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17548,
+          "name": "Aspirants Cup – Tier 164",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17281,
+          "name": "Flint – League 79",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "6th",
+            "wins": 2,
+            "draws": 1,
+            "losses": 1,
+            "goals": 6,
+            "goalsAgainst": 4,
+            "points": 7
+          }
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "clubId": 1367,
+      "clubName": "Trust The Process Algeria B",
+      "managerName": "Pilipinoopao",
+      "city": "Oran",
+      "country": "ALGERIA",
+      "colors": {
+        "main": "#194d33",
+        "secondary": "#f3f2f2"
+      },
+      "points": 5,
+      "leaguePoints": 5,
+      "cupPoints": 0,
+      "leagueWins": 2,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 2,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 5,
+      "goalDifference": -1,
+      "league": {
+        "id": 17215,
+        "name": "Flint – League 13",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 5,
+        "ranking": "5th"
+      },
+      "cup": {
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17215,
+          "name": "Flint – League 13",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "5th",
+            "wins": 2,
+            "draws": 1,
+            "losses": 2,
+            "goals": 4,
+            "goalsAgainst": 5,
+            "points": 7
+          }
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "clubId": 256,
+      "clubName": "Trust The Process Kyiv: F",
+      "managerName": "mythsalvatore",
+      "city": "Kyiv",
+      "country": "UKRAINE",
+      "colors": {
+        "main": "#fcdc00",
+        "secondary": "#0693e3"
+      },
+      "points": 5,
+      "leaguePoints": 5,
+      "cupPoints": 0,
+      "leagueWins": 2,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 2,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 7,
+      "goalDifference": -2,
+      "league": {
+        "id": 17210,
+        "name": "Flint – League 8",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 5,
+        "goalsAgainst": 7,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 17560,
+        "name": "Aspirants Cup – Tier 176",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17560,
+          "name": "Aspirants Cup – Tier 176",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17210,
+          "name": "Flint – League 8",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "7th",
+            "wins": 2,
+            "draws": 1,
+            "losses": 2,
+            "goals": 5,
+            "goalsAgainst": 7,
+            "points": 7
+          }
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "clubId": 1351,
+      "clubName": "Trust The Process Kyiv: B",
+      "managerName": "Scoobersteveha",
+      "city": "Kyiv",
+      "country": "UKRAINE",
+      "colors": {
+        "main": "#1495d5",
+        "secondary": "#f4d915"
+      },
+      "points": 5,
+      "leaguePoints": 5,
+      "cupPoints": 0,
+      "leagueWins": 2,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 2,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 7,
+      "goalDifference": -3,
+      "league": {
+        "id": 17214,
+        "name": "Flint – League 12",
+        "status": "LIVE",
+        "started": true,
+        "wins": 2,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 4,
+        "goalsAgainst": 7,
+        "ranking": "6th"
+      },
+      "cup": {
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17214,
+          "name": "Flint – League 12",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "6th",
+            "wins": 2,
+            "draws": 1,
+            "losses": 2,
+            "goals": 4,
+            "goalsAgainst": 7,
+            "points": 7
+          }
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "clubId": 1627,
+      "clubName": "Trust The Process Germany: C",
+      "managerName": "olavxela",
+      "city": "Mönchengladbach",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#000000",
+        "secondary": "#fcb900"
+      },
+      "points": 3,
+      "leaguePoints": 3,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 2,
+      "played": 4,
+      "leaguePlayed": 4,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 3,
+      "goalDifference": -1,
+      "league": {
+        "id": 17204,
+        "name": "Flint – League 2",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 1,
+        "losses": 2,
+        "goalsFor": 2,
+        "goalsAgainst": 3,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 17546,
+        "name": "Aspirants Cup – Tier 162",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17546,
+          "name": "Aspirants Cup – Tier 162",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17204,
+          "name": "Flint – League 2",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "7th",
+            "wins": 1,
+            "draws": 1,
+            "losses": 2,
+            "goals": 2,
+            "goalsAgainst": 3,
+            "points": 4
+          }
+        }
+      ],
+      "rank": 11
     },
     {
       "clubId": 761,
@@ -1702,76 +951,433 @@
         "main": "#ce1126",
         "secondary": "#fcdc00"
       },
-      "points": 15,
-      "leaguePoints": 12,
-      "cupPoints": 3,
-      "leagueWins": 4,
-      "cupWins": 1,
-      "draws": 4,
-      "losses": 19,
-      "played": 28,
-      "leaguePlayed": 22,
-      "cupPlayed": 6,
-      "goalsFor": 17,
-      "goalsAgainst": 47,
-      "goalDifference": -30,
+      "points": 3,
+      "leaguePoints": 3,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 1,
+      "losses": 3,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 7,
+      "goalDifference": -4,
       "league": {
-        "id": 14880,
+        "id": 17282,
         "name": "Flint – League 80",
-        "status": "ENDED",
-        "started": true,
-        "wins": 4,
-        "draws": 4,
-        "losses": 14,
-        "goalsFor": 14,
-        "goalsAgainst": 39,
-        "ranking": "10th"
-      },
-      "cup": {
-        "id": 15238,
-        "name": "Aspirants Cup – Tier 170",
-        "status": "ENDED",
+        "status": "LIVE",
         "started": true,
         "wins": 1,
-        "draws": 0,
-        "losses": 5,
+        "draws": 1,
+        "losses": 3,
         "goalsFor": 3,
-        "goalsAgainst": 8,
-        "ranking": "Group Stage"
+        "goalsAgainst": 7,
+        "ranking": "7th"
+      },
+      "cup": {
+        "id": 17547,
+        "name": "Aspirants Cup – Tier 163",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
       },
       "competitions": [
         {
-          "id": 15238,
-          "name": "Aspirants Cup – Tier 170",
-          "status": "ENDED",
+          "id": 17547,
+          "name": "Aspirants Cup – Tier 163",
+          "status": "LIVE",
           "type": "CUP",
-          "stats": {
-            "ranking": "Group Stage",
-            "wins": 1,
-            "draws": 0,
-            "losses": 5,
-            "goals": 3,
-            "goalsAgainst": 8,
-            "points": 3
-          }
+          "stats": null
         },
         {
-          "id": 14880,
+          "id": 17282,
           "name": "Flint – League 80",
-          "status": "ENDED",
+          "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "10th",
-            "wins": 4,
-            "draws": 4,
-            "losses": 14,
-            "goals": 14,
-            "goalsAgainst": 39,
-            "points": 16
+            "ranking": "7th",
+            "wins": 1,
+            "draws": 1,
+            "losses": 3,
+            "goals": 3,
+            "goalsAgainst": 7,
+            "points": 4
           }
         }
       ],
-      "rank": 20
+      "rank": 12
+    },
+    {
+      "clubId": 6844,
+      "clubName": "Trust The Process Germany: F",
+      "managerName": "Andrew Q",
+      "city": "Düsseldorf",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#FF0000",
+        "secondary": "#FFD700"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 3,
+      "played": 4,
+      "leaguePlayed": 4,
+      "cupPlayed": 0,
+      "goalsFor": 4,
+      "goalsAgainst": 9,
+      "goalDifference": -5,
+      "league": {
+        "id": 17209,
+        "name": "Flint – League 7",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 3,
+        "goalsFor": 4,
+        "goalsAgainst": 9,
+        "ranking": "9th"
+      },
+      "cup": {
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17209,
+          "name": "Flint – League 7",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "9th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 3,
+            "goals": 4,
+            "goalsAgainst": 9,
+            "points": 3
+          }
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "clubId": 1776,
+      "clubName": "Trust The Process Algeria C",
+      "managerName": "Sufcblades22",
+      "city": "Sétif",
+      "country": "ALGERIA",
+      "colors": {
+        "main": "#337933",
+        "secondary": "#f7f5f3"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 4,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 7,
+      "goalDifference": -5,
+      "league": {
+        "id": 17270,
+        "name": "Flint – League 68",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 7,
+        "ranking": "9th"
+      },
+      "cup": {
+        "id": 17547,
+        "name": "Aspirants Cup – Tier 163",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17547,
+          "name": "Aspirants Cup – Tier 163",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17270,
+          "name": "Flint – League 68",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "9th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 4,
+            "goals": 2,
+            "goalsAgainst": 7,
+            "points": 3
+          }
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "clubId": 1100,
+      "clubName": "Trust The Process Budapest: A",
+      "managerName": "Pepteta",
+      "city": "Budapest",
+      "country": "HUNGARY",
+      "colors": {
+        "main": "#b9103c",
+        "secondary": "#226945"
+      },
+      "points": 2,
+      "leaguePoints": 2,
+      "cupPoints": 0,
+      "leagueWins": 1,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 4,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 10,
+      "goalDifference": -8,
+      "league": {
+        "id": 17203,
+        "name": "Flint – League 1",
+        "status": "LIVE",
+        "started": true,
+        "wins": 1,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 10,
+        "ranking": "9th"
+      },
+      "cup": {
+        "id": 17548,
+        "name": "Aspirants Cup – Tier 164",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17548,
+          "name": "Aspirants Cup – Tier 164",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17203,
+          "name": "Flint – League 1",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "9th",
+            "wins": 1,
+            "draws": 0,
+            "losses": 4,
+            "goals": 2,
+            "goalsAgainst": 10,
+            "points": 3
+          }
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "clubId": 5004,
+      "clubName": "Trust The Process Germany:B",
+      "managerName": "Jeddy",
+      "city": "Potsdam",
+      "country": "GERMANY",
+      "colors": {
+        "main": "#fcdc00",
+        "secondary": "#000000"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 5,
+      "played": 5,
+      "leaguePlayed": 5,
+      "cupPlayed": 0,
+      "goalsFor": 3,
+      "goalsAgainst": 9,
+      "goalDifference": -6,
+      "league": {
+        "id": 17226,
+        "name": "Flint – League 24",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 5,
+        "goalsFor": 3,
+        "goalsAgainst": 9,
+        "ranking": "12th"
+      },
+      "cup": {
+        "id": 17547,
+        "name": "Aspirants Cup – Tier 163",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17547,
+          "name": "Aspirants Cup – Tier 163",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17226,
+          "name": "Flint – League 24",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "12th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 5,
+            "goals": 3,
+            "goalsAgainst": 9,
+            "points": 0
+          }
+        }
+      ],
+      "rank": 16
+    },
+    {
+      "clubId": 838,
+      "clubName": "Trust The Process Italy: A",
+      "managerName": "JPS",
+      "city": "Genoa",
+      "country": "ITALY",
+      "colors": {
+        "main": "#24714a",
+        "secondary": "#bd123f"
+      },
+      "points": 0,
+      "leaguePoints": 0,
+      "cupPoints": 0,
+      "leagueWins": 0,
+      "cupWins": 0,
+      "draws": 0,
+      "losses": 4,
+      "played": 4,
+      "leaguePlayed": 4,
+      "cupPlayed": 0,
+      "goalsFor": 2,
+      "goalsAgainst": 14,
+      "goalDifference": -12,
+      "league": {
+        "id": 17213,
+        "name": "Flint – League 11",
+        "status": "LIVE",
+        "started": true,
+        "wins": 0,
+        "draws": 0,
+        "losses": 4,
+        "goalsFor": 2,
+        "goalsAgainst": 14,
+        "ranking": "9th"
+      },
+      "cup": {
+        "id": 17549,
+        "name": "Aspirants Cup – Tier 165",
+        "status": "LIVE",
+        "started": false,
+        "wins": 0,
+        "draws": 0,
+        "losses": 0,
+        "goalsFor": 0,
+        "goalsAgainst": 0,
+        "ranking": null
+      },
+      "competitions": [
+        {
+          "id": 17549,
+          "name": "Aspirants Cup – Tier 165",
+          "status": "LIVE",
+          "type": "CUP",
+          "stats": null
+        },
+        {
+          "id": 17213,
+          "name": "Flint – League 11",
+          "status": "LIVE",
+          "type": "LEAGUE",
+          "stats": {
+            "ranking": "9th",
+            "wins": 0,
+            "draws": 0,
+            "losses": 4,
+            "goals": 2,
+            "goalsAgainst": 14,
+            "points": 0
+          }
+        }
+      ],
+      "rank": 17
     }
   ]
 }

@@ -10,21 +10,18 @@ const CLUB_IDS = [
   1100,
   789,
   761,
+  5004,
   1627,
   3585,
   6844,
-  5004,
   6162,
   4251,
-  838,
   2953,
-  1351,
-  2855,
+  838,
+  155,
   256,
-  6640,
-  5753,
-  1611,
-  6813
+  1351,
+  2855
 ];
 
 const MANAGERS_BY_CLUB_ID = new Map([
@@ -39,15 +36,11 @@ const MANAGERS_BY_CLUB_ID = new Map([
   [5004, "Jeddy"],
   [6162, "Gaffer Lewis"],
   [4251, "RareRiverBadger"],
-  [838, "JPS"],
   [2953, "Herndouzi"],
-  [1351, "Scoobersteveha"],
-  [2855, "SLDLRD"],
+  [838, "JPS"],
   [256, "mythsalvatore"],
-  [6640, "BillyBremner"],
-  [5753, "SearleOnTheBall"],
-  [1611, "SRMonkey🐒"],
-  [6813, "Hoodwink"]
+  [1351, "Scoobersteveha"],
+  [2855, "SLDLRD"]
 ]);
 
 const API_BASE_URL =
@@ -135,7 +128,7 @@ async function main() {
     meta: {
       generatedAt,
       seasonId: SEASON_ID,
-      seasonName: "Season 14",
+      seasonName: "Season 15",
       source: `${API_BASE_URL}/clubs/{clubId}/competitions`,
       repository,
       branch,

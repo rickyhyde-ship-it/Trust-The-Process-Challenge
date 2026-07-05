@@ -6,7 +6,7 @@ Static GitHub Pages leaderboard for the Trust The Process Challenge.
 
 - The page loads `data/leaderboard.json`.
 - `.github/workflows/update-leaderboard.yml` fetches club and competition data from the supplied API.
-- Only Season 14 (`season.id === 24`) competitions with `type` set to `LEAGUE` or `CUP` are included.
+- Only Season 15 (`season.id === 25`) competitions with `type` set to `LEAGUE` or `CUP` are included.
 - Scoring is custom to the challenge: cup win = 3, league win = 2, draw = 1.
 - The cup framework is included now, and planned cups stay at zero until the API starts returning cup `stats`.
 

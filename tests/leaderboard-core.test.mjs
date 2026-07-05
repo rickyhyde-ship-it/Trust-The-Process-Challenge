@@ -5,43 +5,48 @@ import {
   buildClubRow,
   calculateCompetitionPoints,
   filterSeasonCompetitions,
+  SEASON_ID,
   sortLeaderboardRows
 } from "../scripts/leaderboard-core.mjs";
 
 describe("Trust The Process scoring", () => {
-  it("scores only Season 14 league and cup competitions with the challenge rules", () => {
+  it("uses Season 15 as the active leaderboard season", () => {
+    assert.equal(SEASON_ID, 25);
+  });
+
+  it("scores only Season 15 league and cup competitions with the challenge rules", () => {
     const competitions = [
       {
         id: 14401,
         name: "Iron - League 25",
         type: "LEAGUE",
-        season: { id: 24, name: "Season 14" },
+        season: { id: 25, name: "Season 15" },
         stats: { wins: 2, draws: 1, losses: 1, goals: 8, goalsAgainst: 6 }
       },
       {
         id: 14345,
-        name: "IMFF Cup - Season 14",
+        name: "Aspirants Cup - Season 15",
         type: "CUP",
-        season: { id: 24, name: "Season 14" },
+        season: { id: 25, name: "Season 15" },
         stats: { wins: 1, draws: 2, losses: 0, goals: 5, goalsAgainst: 2 }
       },
       {
         id: 999,
         name: "Old League",
         type: "LEAGUE",
-        season: { id: 23, name: "Season 13" },
+        season: { id: 24, name: "Season 14" },
         stats: { wins: 99, draws: 99, losses: 0, goals: 99, goalsAgainst: 0 }
       },
       {
         id: 1000,
         name: "Friendly",
         type: "FRIENDLY",
-        season: { id: 24, name: "Season 14" },
+        season: { id: 25, name: "Season 15" },
         stats: { wins: 99, draws: 99, losses: 0, goals: 99, goalsAgainst: 0 }
       }
     ];
 
-    const filtered = filterSeasonCompetitions(competitions, 24);
+    const filtered = filterSeasonCompetitions(competitions);
     const points = calculateCompetitionPoints(filtered);
 
     assert.equal(filtered.length, 2);
@@ -57,17 +62,16 @@ describe("Trust The Process scoring", () => {
     const competitions = [
       {
         id: 14345,
-        name: "IMFF Cup - Season 14",
+        name: "Aspirants Cup - Season 15",
         status: "PLANNED",
         type: "CUP",
-        season: { id: 24, name: "Season 14" }
+        season: { id: 25, name: "Season 15" }
       }
     ];
 
     const row = buildClubRow({
       club: { id: 1367, name: "Trust The Process Algeria B" },
-      competitions,
-      seasonId: 24
+      competitions
     });
 
     assert.equal(row.points, 0);
@@ -79,13 +83,12 @@ describe("Trust The Process scoring", () => {
 
   it("adds the assigned manager name to each club row", () => {
     const row = buildClubRow({
-      club: { id: 1611, name: "Trust The Process Nigeria A" },
-      managerName: "SRMonkey🐒",
-      competitions: [],
-      seasonId: 24
+      club: { id: 1367, name: "Trust The Process Algeria B" },
+      managerName: "Pilipinoopao",
+      competitions: []
     });
 
-    assert.equal(row.managerName, "SRMonkey🐒");
+    assert.equal(row.managerName, "Pilipinoopao");
   });
 
   it("sorts by points, goal difference, goals for, then club name", () => {

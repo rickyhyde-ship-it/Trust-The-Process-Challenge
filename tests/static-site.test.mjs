@@ -25,4 +25,13 @@ describe("public leaderboard page", () => {
     assert.match(html, /Points awarded per result/);
     assert.match(html, /\+3 pts/);
   });
+
+  it("shows Season 15 copy for the active challenge", () => {
+    const html = readFileSync("index.html", "utf8");
+
+    assert.match(html, /Season 15/);
+    assert.match(html, /Seventeen club IDs/);
+    assert.doesNotMatch(html, /Season 14/);
+    assert.doesNotMatch(html, /Twenty club IDs/);
+  });
 });
