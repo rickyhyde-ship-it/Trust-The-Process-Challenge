@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-12T17:56:15.743Z",
+    "generatedAt": "2026-07-12T19:02:14.218Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -56,10 +56,10 @@
   },
   "totals": {
     "clubs": 17,
-    "played": 245,
+    "played": 246,
     "points": 257,
     "goalsFor": 288,
-    "goalsAgainst": 312,
+    "goalsAgainst": 315,
     "leagueWins": 61,
     "cupWins": 27,
     "draws": 54,
@@ -730,13 +730,13 @@
       "leagueWins": 4,
       "cupWins": 2,
       "draws": 2,
-      "losses": 6,
-      "played": 14,
-      "leaguePlayed": 9,
+      "losses": 7,
+      "played": 15,
+      "leaguePlayed": 10,
       "cupPlayed": 5,
       "goalsFor": 14,
-      "goalsAgainst": 11,
-      "goalDifference": 3,
+      "goalsAgainst": 14,
+      "goalDifference": 0,
       "league": {
         "id": 17281,
         "name": "Flint – League 79",
@@ -744,10 +744,10 @@
         "started": true,
         "wins": 4,
         "draws": 2,
-        "losses": 3,
+        "losses": 4,
         "goalsFor": 10,
-        "goalsAgainst": 7,
-        "ranking": "6th"
+        "goalsAgainst": 10,
+        "ranking": "7th"
       },
       "cup": {
         "id": 17548,
@@ -783,12 +783,12 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
+            "ranking": "7th",
             "wins": 4,
             "draws": 2,
-            "losses": 3,
+            "losses": 4,
             "goals": 10,
-            "goalsAgainst": 7,
+            "goalsAgainst": 10,
             "points": 14
           }
         }
@@ -828,7 +828,7 @@
         "losses": 6,
         "goalsFor": 10,
         "goalsAgainst": 14,
-        "ranking": "6th"
+        "ranking": "7th"
       },
       "cup": {
         "id": 17547,
@@ -864,7 +864,7 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "6th",
+            "ranking": "7th",
             "wins": 4,
             "draws": 0,
             "losses": 6,
