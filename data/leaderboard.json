@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-15T17:44:56.105Z",
+    "generatedAt": "2026-07-15T19:03:44.270Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -56,10 +56,10 @@
   },
   "totals": {
     "clubs": 17,
-    "played": 279,
+    "played": 280,
     "points": 288,
     "goalsFor": 317,
-    "goalsAgainst": 369,
+    "goalsAgainst": 371,
     "leagueWins": 66,
     "cupWins": 32,
     "draws": 60,
@@ -325,13 +325,13 @@
       "leagueWins": 5,
       "cupWins": 3,
       "draws": 2,
-      "losses": 6,
-      "played": 16,
-      "leaguePlayed": 10,
+      "losses": 7,
+      "played": 17,
+      "leaguePlayed": 11,
       "cupPlayed": 6,
       "goalsFor": 29,
-      "goalsAgainst": 13,
-      "goalDifference": 16,
+      "goalsAgainst": 15,
+      "goalDifference": 14,
       "league": {
         "id": 17284,
         "name": "Flint – League 82",
@@ -339,9 +339,9 @@
         "started": true,
         "wins": 5,
         "draws": 2,
-        "losses": 3,
+        "losses": 4,
         "goalsFor": 23,
-        "goalsAgainst": 7,
+        "goalsAgainst": 9,
         "ranking": "6th"
       },
       "cup": {
@@ -381,9 +381,9 @@
             "ranking": "6th",
             "wins": 5,
             "draws": 2,
-            "losses": 3,
+            "losses": 4,
             "goals": 23,
-            "goalsAgainst": 7,
+            "goalsAgainst": 9,
             "points": 17
           }
         }
