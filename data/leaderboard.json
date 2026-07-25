@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-25T17:08:51.466Z",
+    "generatedAt": "2026-07-25T18:14:04.124Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -342,7 +342,7 @@
         "losses": 10,
         "goalsFor": 30,
         "goalsAgainst": 24,
-        "ranking": "7th"
+        "ranking": "8th"
       },
       "cup": {
         "id": 17548,
@@ -378,7 +378,7 @@
           "status": "LIVE",
           "type": "LEAGUE",
           "stats": {
-            "ranking": "7th",
+            "ranking": "8th",
             "wins": 6,
             "draws": 2,
             "losses": 10,
