@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-28T13:53:27.312Z",
+    "generatedAt": "2026-07-28T16:02:48.771Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -56,12 +56,12 @@
   },
   "totals": {
     "clubs": 17,
-    "played": 453,
-    "points": 436,
-    "goalsFor": 505,
-    "goalsAgainst": 643,
+    "played": 455,
+    "points": 439,
+    "goalsFor": 506,
+    "goalsAgainst": 644,
     "leagueWins": 114,
-    "cupWins": 38,
+    "cupWins": 39,
     "draws": 94,
     "cupStarted": 17
   },
@@ -81,13 +81,13 @@
     "leagueWins": 12,
     "cupWins": 8,
     "draws": 0,
-    "losses": 8,
-    "played": 28,
+    "losses": 9,
+    "played": 29,
     "leaguePlayed": 19,
-    "cupPlayed": 9,
+    "cupPlayed": 10,
     "goalsFor": 49,
-    "goalsAgainst": 37,
-    "goalDifference": 12,
+    "goalsAgainst": 38,
+    "goalDifference": 11,
     "league": {
       "id": 17221,
       "name": "Flint – League 19",
@@ -107,10 +107,10 @@
       "started": true,
       "wins": 8,
       "draws": 0,
-      "losses": 1,
+      "losses": 2,
       "goalsFor": 16,
-      "goalsAgainst": 9,
-      "ranking": "Final"
+      "goalsAgainst": 10,
+      "ranking": "2nd"
     },
     "competitions": [
       {
@@ -119,12 +119,12 @@
         "status": "LIVE",
         "type": "CUP",
         "stats": {
-          "ranking": "Final",
+          "ranking": "2nd",
           "wins": 8,
           "draws": 0,
-          "losses": 1,
+          "losses": 2,
           "goals": 16,
-          "goalsAgainst": 9,
+          "goalsAgainst": 10,
           "points": 15
         }
       },
@@ -163,13 +163,13 @@
       "leagueWins": 12,
       "cupWins": 8,
       "draws": 0,
-      "losses": 8,
-      "played": 28,
+      "losses": 9,
+      "played": 29,
       "leaguePlayed": 19,
-      "cupPlayed": 9,
+      "cupPlayed": 10,
       "goalsFor": 49,
-      "goalsAgainst": 37,
-      "goalDifference": 12,
+      "goalsAgainst": 38,
+      "goalDifference": 11,
       "league": {
         "id": 17221,
         "name": "Flint – League 19",
@@ -189,10 +189,10 @@
         "started": true,
         "wins": 8,
         "draws": 0,
-        "losses": 1,
+        "losses": 2,
         "goalsFor": 16,
-        "goalsAgainst": 9,
-        "ranking": "Final"
+        "goalsAgainst": 10,
+        "ranking": "2nd"
       },
       "competitions": [
         {
@@ -201,12 +201,12 @@
           "status": "LIVE",
           "type": "CUP",
           "stats": {
-            "ranking": "Final",
+            "ranking": "2nd",
             "wins": 8,
             "draws": 0,
-            "losses": 1,
+            "losses": 2,
             "goals": 16,
-            "goalsAgainst": 9,
+            "goalsAgainst": 10,
             "points": 15
           }
         },
@@ -238,19 +238,19 @@
         "main": "#1495d5",
         "secondary": "#f4d915"
       },
-      "points": 38,
+      "points": 41,
       "leaguePoints": 20,
-      "cupPoints": 18,
+      "cupPoints": 21,
       "leagueWins": 9,
-      "cupWins": 6,
+      "cupWins": 7,
       "draws": 2,
       "losses": 13,
-      "played": 30,
+      "played": 31,
       "leaguePlayed": 21,
-      "cupPlayed": 9,
-      "goalsFor": 50,
+      "cupPlayed": 10,
+      "goalsFor": 51,
       "goalsAgainst": 32,
-      "goalDifference": 18,
+      "goalDifference": 19,
       "league": {
         "id": 17284,
         "name": "Flint – League 82",
@@ -268,12 +268,12 @@
         "name": "Aspirants Cup – Tier 164",
         "status": "LIVE",
         "started": true,
-        "wins": 6,
+        "wins": 7,
         "draws": 0,
         "losses": 3,
-        "goalsFor": 10,
+        "goalsFor": 11,
         "goalsAgainst": 7,
-        "ranking": "Final"
+        "ranking": "Winner"
       },
       "competitions": [
         {
@@ -282,11 +282,11 @@
           "status": "LIVE",
           "type": "CUP",
           "stats": {
-            "ranking": "Final",
-            "wins": 6,
+            "ranking": "Winner",
+            "wins": 7,
             "draws": 0,
             "losses": 3,
-            "goals": 10,
+            "goals": 11,
             "goalsAgainst": 7,
             "points": 9
           }
