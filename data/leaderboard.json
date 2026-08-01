@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-01T22:50:06.222Z",
+    "generatedAt": "2026-08-01T23:52:57.792Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
