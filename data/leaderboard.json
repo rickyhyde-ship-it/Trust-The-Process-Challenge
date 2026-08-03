@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-03T05:55:52.494Z",
+    "generatedAt": "2026-08-03T09:37:12.770Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -91,7 +91,7 @@
     "league": {
       "id": 17221,
       "name": "Flint – League 19",
-      "status": "LIVE",
+      "status": "ENDED",
       "started": true,
       "wins": 13,
       "draws": 0,
@@ -103,7 +103,7 @@
     "cup": {
       "id": 17549,
       "name": "Aspirants Cup – Tier 165",
-      "status": "LIVE",
+      "status": "ENDED",
       "started": true,
       "wins": 8,
       "draws": 0,
@@ -116,7 +116,7 @@
       {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "type": "CUP",
         "stats": {
           "ranking": "2nd",
@@ -131,7 +131,7 @@
       {
         "id": 17221,
         "name": "Flint – League 19",
-        "status": "LIVE",
+        "status": "ENDED",
         "type": "LEAGUE",
         "stats": {
           "ranking": "5th",
@@ -173,7 +173,7 @@
       "league": {
         "id": 17221,
         "name": "Flint – League 19",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 13,
         "draws": 0,
@@ -185,7 +185,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 8,
         "draws": 0,
@@ -198,7 +198,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "2nd",
@@ -213,7 +213,7 @@
         {
           "id": 17221,
           "name": "Flint – League 19",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "5th",
@@ -254,7 +254,7 @@
       "league": {
         "id": 17284,
         "name": "Flint – League 82",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 9,
         "draws": 2,
@@ -266,7 +266,7 @@
       "cup": {
         "id": 17548,
         "name": "Aspirants Cup – Tier 164",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 7,
         "draws": 0,
@@ -279,7 +279,7 @@
         {
           "id": 17548,
           "name": "Aspirants Cup – Tier 164",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Winner",
@@ -294,7 +294,7 @@
         {
           "id": 17284,
           "name": "Flint – League 82",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "6th",
@@ -335,7 +335,7 @@
       "league": {
         "id": 17207,
         "name": "Flint – League 5",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 12,
         "draws": 3,
@@ -347,7 +347,7 @@
       "cup": {
         "id": 17548,
         "name": "Aspirants Cup – Tier 164",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 3,
@@ -360,7 +360,7 @@
         {
           "id": 17548,
           "name": "Aspirants Cup – Tier 164",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -375,7 +375,7 @@
         {
           "id": 17207,
           "name": "Flint – League 5",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "4th",
@@ -416,7 +416,7 @@
       "league": {
         "id": 17224,
         "name": "Flint – League 22",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 12,
         "draws": 1,
@@ -428,7 +428,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 1,
@@ -441,7 +441,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -456,7 +456,7 @@
         {
           "id": 17224,
           "name": "Flint – League 22",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "5th",
@@ -497,7 +497,7 @@
       "league": {
         "id": 17246,
         "name": "Flint – League 44",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 9,
         "draws": 5,
@@ -509,7 +509,7 @@
       "cup": {
         "id": 17548,
         "name": "Aspirants Cup – Tier 164",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 2,
@@ -522,7 +522,7 @@
         {
           "id": 17548,
           "name": "Aspirants Cup – Tier 164",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -537,7 +537,7 @@
         {
           "id": 17246,
           "name": "Flint – League 44",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "4th",
@@ -578,7 +578,7 @@
       "league": {
         "id": 17226,
         "name": "Flint – League 24",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 9,
@@ -590,7 +590,7 @@
       "cup": {
         "id": 17547,
         "name": "Aspirants Cup – Tier 163",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 5,
         "draws": 0,
@@ -603,7 +603,7 @@
         {
           "id": 17547,
           "name": "Aspirants Cup – Tier 163",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Round of 16",
@@ -618,7 +618,7 @@
         {
           "id": 17226,
           "name": "Flint – League 24",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "12th",
@@ -659,7 +659,7 @@
       "league": {
         "id": 17281,
         "name": "Flint – League 79",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 8,
         "draws": 4,
@@ -671,7 +671,7 @@
       "cup": {
         "id": 17548,
         "name": "Aspirants Cup – Tier 164",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 0,
@@ -684,7 +684,7 @@
         {
           "id": 17548,
           "name": "Aspirants Cup – Tier 164",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -699,7 +699,7 @@
         {
           "id": 17281,
           "name": "Flint – League 79",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "7th",
@@ -740,7 +740,7 @@
       "league": {
         "id": 17294,
         "name": "Flint – League 92",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 9,
         "draws": 4,
@@ -752,7 +752,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 1,
         "draws": 1,
@@ -765,7 +765,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -780,7 +780,7 @@
         {
           "id": 17294,
           "name": "Flint – League 92",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "7th",
@@ -821,7 +821,7 @@
       "league": {
         "id": 17225,
         "name": "Flint – League 23",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 6,
         "draws": 6,
@@ -833,7 +833,7 @@
       "cup": {
         "id": 17548,
         "name": "Aspirants Cup – Tier 164",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 1,
         "draws": 3,
@@ -846,7 +846,7 @@
         {
           "id": 17548,
           "name": "Aspirants Cup – Tier 164",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -861,7 +861,7 @@
         {
           "id": 17225,
           "name": "Flint – League 23",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "8th",
@@ -902,7 +902,7 @@
       "league": {
         "id": 17215,
         "name": "Flint – League 13",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 7,
         "draws": 4,
@@ -914,7 +914,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 0,
         "draws": 6,
@@ -927,7 +927,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -942,7 +942,7 @@
         {
           "id": 17215,
           "name": "Flint – League 13",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "7th",
@@ -983,7 +983,7 @@
       "league": {
         "id": 17204,
         "name": "Flint – League 2",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 5,
         "draws": 5,
@@ -995,7 +995,7 @@
       "cup": {
         "id": 17546,
         "name": "Aspirants Cup – Tier 162",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 2,
@@ -1008,7 +1008,7 @@
         {
           "id": 17546,
           "name": "Aspirants Cup – Tier 162",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Round of 16",
@@ -1023,7 +1023,7 @@
         {
           "id": 17204,
           "name": "Flint – League 2",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "9th",
@@ -1064,7 +1064,7 @@
       "league": {
         "id": 17270,
         "name": "Flint – League 68",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 6,
         "draws": 2,
@@ -1076,7 +1076,7 @@
       "cup": {
         "id": 17547,
         "name": "Aspirants Cup – Tier 163",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 2,
         "draws": 3,
@@ -1089,7 +1089,7 @@
         {
           "id": 17547,
           "name": "Aspirants Cup – Tier 163",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Round of 16",
@@ -1104,7 +1104,7 @@
         {
           "id": 17270,
           "name": "Flint – League 68",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "9th",
@@ -1145,7 +1145,7 @@
       "league": {
         "id": 17282,
         "name": "Flint – League 80",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 4,
         "draws": 4,
@@ -1157,7 +1157,7 @@
       "cup": {
         "id": 17547,
         "name": "Aspirants Cup – Tier 163",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 3,
         "draws": 1,
@@ -1170,7 +1170,7 @@
         {
           "id": 17547,
           "name": "Aspirants Cup – Tier 163",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Round of 16",
@@ -1185,7 +1185,7 @@
         {
           "id": 17282,
           "name": "Flint – League 80",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "11th",
@@ -1226,7 +1226,7 @@
       "league": {
         "id": 17214,
         "name": "Flint – League 12",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 4,
         "draws": 7,
@@ -1238,7 +1238,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 1,
         "draws": 2,
@@ -1251,7 +1251,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -1266,7 +1266,7 @@
         {
           "id": 17214,
           "name": "Flint – League 12",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "8th",
@@ -1307,7 +1307,7 @@
       "league": {
         "id": 17203,
         "name": "Flint – League 1",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 3,
         "draws": 4,
@@ -1319,7 +1319,7 @@
       "cup": {
         "id": 17548,
         "name": "Aspirants Cup – Tier 164",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 1,
         "draws": 3,
@@ -1332,7 +1332,7 @@
         {
           "id": 17548,
           "name": "Aspirants Cup – Tier 164",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -1347,7 +1347,7 @@
         {
           "id": 17203,
           "name": "Flint – League 1",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "10th",
@@ -1388,7 +1388,7 @@
       "league": {
         "id": 17213,
         "name": "Flint – League 11",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 4,
         "draws": 5,
@@ -1400,7 +1400,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 0,
         "draws": 2,
@@ -1413,7 +1413,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -1428,7 +1428,7 @@
         {
           "id": 17213,
           "name": "Flint – League 11",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "9th",
@@ -1469,7 +1469,7 @@
       "league": {
         "id": 17209,
         "name": "Flint – League 7",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 6,
         "draws": 1,
@@ -1481,7 +1481,7 @@
       "cup": {
         "id": 17549,
         "name": "Aspirants Cup – Tier 165",
-        "status": "LIVE",
+        "status": "ENDED",
         "started": true,
         "wins": 0,
         "draws": 2,
@@ -1494,7 +1494,7 @@
         {
           "id": 17549,
           "name": "Aspirants Cup – Tier 165",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "CUP",
           "stats": {
             "ranking": "Group Stage",
@@ -1509,7 +1509,7 @@
         {
           "id": 17209,
           "name": "Flint – League 7",
-          "status": "LIVE",
+          "status": "ENDED",
           "type": "LEAGUE",
           "stats": {
             "ranking": "7th",
