@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-08T20:22:59.917Z",
+    "generatedAt": "2026-08-08T20:57:24.646Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -31,11 +31,11 @@
       "789": "",
       "838": "",
       "1100": "",
-      "1351": "SD",
+      "1351": "",
       "1367": "",
       "1627": "",
       "1776": "",
-      "2799": "",
+      "2799": "SD",
       "2855": "",
       "2953": "",
       "3585": "",
@@ -231,7 +231,7 @@
     {
       "clubId": 2799,
       "clubName": "Trust The Process Kyiv: E",
-      "managerName": "",
+      "managerName": "SD",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
@@ -1203,7 +1203,7 @@
     {
       "clubId": 1351,
       "clubName": "Trust The Process Kyiv: B",
-      "managerName": "SD",
+      "managerName": "",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
