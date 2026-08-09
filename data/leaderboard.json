@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-09T11:53:58.017Z",
+    "generatedAt": "2026-08-09T12:39:00.048Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -35,8 +35,8 @@
       "1367": "",
       "1627": "",
       "1776": "",
-      "2799": "",
-      "2855": "",
+      "2799": "Ron Jans Keukenrol",
+      "2855": "Ron Jans Keukenrol",
       "2953": "",
       "3585": "",
       "4251": "",
@@ -68,7 +68,7 @@
   "leader": {
     "clubId": 2855,
     "clubName": "Trust The Process Kyiv: D",
-    "managerName": "",
+    "managerName": "Ron Jans Keukenrol",
     "city": "Kyiv",
     "country": "UKRAINE",
     "colors": {
@@ -150,7 +150,7 @@
     {
       "clubId": 2855,
       "clubName": "Trust The Process Kyiv: D",
-      "managerName": "",
+      "managerName": "Ron Jans Keukenrol",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
@@ -231,7 +231,7 @@
     {
       "clubId": 2799,
       "clubName": "Trust The Process Kyiv: E",
-      "managerName": "",
+      "managerName": "Ron Jans Keukenrol",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
