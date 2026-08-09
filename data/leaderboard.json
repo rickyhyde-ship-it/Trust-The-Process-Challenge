@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-08T23:32:41.710Z",
+    "generatedAt": "2026-08-09T01:17:28.207Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -31,7 +31,7 @@
       "789": "",
       "838": "",
       "1100": "",
-      "1351": "",
+      "1351": "Bato22",
       "1367": "",
       "1627": "",
       "1776": "",
@@ -1203,7 +1203,7 @@
     {
       "clubId": 1351,
       "clubName": "Trust The Process Kyiv: B",
-      "managerName": "",
+      "managerName": "Bato22",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
