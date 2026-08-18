@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-08-18T09:04:28.245Z",
+    "generatedAt": "2026-08-18T09:57:29.564Z",
     "seasonId": 25,
     "seasonName": "Season 15",
     "source": "https://z519wdyajg.execute-api.us-east-1.amazonaws.com/prod/clubs/{clubId}/competitions",
@@ -35,8 +35,8 @@
       "1367": "",
       "1627": "",
       "1776": "",
-      "2799": "Ron Jans Keukenrol",
-      "2855": "Ron Jans Keukenrol",
+      "2799": "All for sale, send offers",
+      "2855": "All for sale, send offers",
       "2953": "",
       "3585": "",
       "4251": "",
@@ -68,7 +68,7 @@
   "leader": {
     "clubId": 2855,
     "clubName": "Trust The Process Kyiv: D",
-    "managerName": "Ron Jans Keukenrol",
+    "managerName": "All for sale, send offers",
     "city": "Kyiv",
     "country": "UKRAINE",
     "colors": {
@@ -150,7 +150,7 @@
     {
       "clubId": 2855,
       "clubName": "Trust The Process Kyiv: D",
-      "managerName": "Ron Jans Keukenrol",
+      "managerName": "All for sale, send offers",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
@@ -231,7 +231,7 @@
     {
       "clubId": 2799,
       "clubName": "Trust The Process Kyiv: E",
-      "managerName": "Ron Jans Keukenrol",
+      "managerName": "All for sale, send offers",
       "city": "Kyiv",
       "country": "UKRAINE",
       "colors": {
